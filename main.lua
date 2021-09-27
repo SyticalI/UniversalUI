@@ -19,75 +19,85 @@ local UICorner_4 = Instance.new("UICorner")
 local Settings = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
 local UICorner_6 = Instance.new("UICorner")
-local GameSpecific = Instance.new("Frame")
-local UICorner_7 = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
-local PrisonHax_155615604 = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local UIGridLayout_2 = Instance.new("UIGridLayout")
-local JailMonkey_606849621 = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
 local Plate = Instance.new("Frame")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local Plate2 = Instance.new("Frame")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local LocalPlayer_2 = Instance.new("Frame")
-local UIGridLayout_3 = Instance.new("UIGridLayout")
+local UIGridLayout_2 = Instance.new("UIGridLayout")
 local Btools = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local Fly = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local Gravity = Instance.new("TextBox")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local Jump = Instance.new("TextBox")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local Noclip = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local ClickTP = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
 local ClickDE = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local Speed = Instance.new("TextBox")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local ESP = Instance.new("TextButton")
-local UICorner_21 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
+local Freecam = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
 local Players_2 = Instance.new("Frame")
-local UICorner_22 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local TextBox = Instance.new("TextBox")
-local UICorner_23 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local Frame_3 = Instance.new("Frame")
 local GoTo = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
-local UIGridLayout_4 = Instance.new("UIGridLayout")
+local UICorner_21 = Instance.new("UICorner")
+local UIGridLayout_3 = Instance.new("UIGridLayout")
 local Spectate = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local Follow = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
+local Annoy = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
 local Settings_2 = Instance.new("Frame")
-local UICorner_27 = Instance.new("UICorner")
-local ScrollingFrame = Instance.new("ScrollingFrame")
-local FlyKeybind = Instance.new("TextBox")
-local UICorner_28 = Instance.new("UICorner")
-local FancyTabs = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
-local UIGridLayout_5 = Instance.new("UIGridLayout")
+local UICorner_25 = Instance.new("UICorner")
+local HideKeyLabel = Instance.new("TextLabel")
+local UICorner_26 = Instance.new("UICorner")
 local FlyKeyLabel = Instance.new("TextLabel")
+local UICorner_27 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local HideKeybind = Instance.new("TextBox")
+local UICorner_29 = Instance.new("UICorner")
+local FlyKeybind = Instance.new("TextBox")
 local UICorner_30 = Instance.new("UICorner")
+local UIGridLayout_4 = Instance.new("UIGridLayout")
 local Home_2 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
 local TextLabel_2 = Instance.new("TextLabel")
 local TextLabel_3 = Instance.new("TextLabel")
 local UICorner_31 = Instance.new("UICorner")
 local UICorner_32 = Instance.new("UICorner")
+local GameSpecific = Instance.new("Frame")
+local UICorner_33 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local PrisonHax_155615604 = Instance.new("TextButton")
+local UICorner_34 = Instance.new("UICorner")
+local UIGridLayout_5 = Instance.new("UIGridLayout")
+local JailMonkey_606849621 = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local UniversalUI = Instance.new("TextButton")
+local UICorner_36 = Instance.new("UICorner")
 local UiName = Instance.new("TextLabel")
 local Close = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
+local UICorner_37 = Instance.new("UICorner")
 local Status = Instance.new("TextLabel")
 local Minimize = Instance.new("TextButton")
-local UICorner_34 = Instance.new("UICorner")
+local UICorner_38 = Instance.new("UICorner")
 local Fixed1 = Instance.new("Frame")
-local UICorner_35 = Instance.new("UICorner")
+local UICorner_39 = Instance.new("UICorner")
 local Fixed2 = Instance.new("Frame")
+local Respawn = Instance.new("TextButton")
+local UICorner_40 = Instance.new("UICorner")
 
 --Properties:
 
@@ -191,61 +201,6 @@ UICorner_5.Parent = Settings
 
 UICorner_6.Parent = Library
 
-GameSpecific.Name = "GameSpecific"
-GameSpecific.Parent = Frame_2
-GameSpecific.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-GameSpecific.BorderSizePixel = 0
-GameSpecific.Position = UDim2.new(0.231182799, 0, 0.0313058347, 0)
-GameSpecific.Size = UDim2.new(0, 280, 0, 168)
-GameSpecific.Visible = false
-GameSpecific.ZIndex = 3
-
-UICorner_7.Parent = GameSpecific
-
-TextLabel.Parent = GameSpecific
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.LayoutOrder = 2
-TextLabel.Size = UDim2.new(0, 279, 0, 166)
-TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Game Not Supported"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextSize = 35.000
-
-PrisonHax_155615604.Name = "PrisonHax_155615604"
-PrisonHax_155615604.Parent = GameSpecific
-PrisonHax_155615604.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-PrisonHax_155615604.BorderSizePixel = 0
-PrisonHax_155615604.Size = UDim2.new(0, 200, 0, 50)
-PrisonHax_155615604.Visible = false
-PrisonHax_155615604.Font = Enum.Font.SourceSans
-PrisonHax_155615604.Text = "PrisonHax"
-PrisonHax_155615604.TextColor3 = Color3.fromRGB(255, 255, 255)
-PrisonHax_155615604.TextSize = 20.000
-
-UICorner_8.Parent = PrisonHax_155615604
-
-UIGridLayout_2.Parent = GameSpecific
-UIGridLayout_2.FillDirection = Enum.FillDirection.Vertical
-UIGridLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_2.VerticalAlignment = Enum.VerticalAlignment.Center
-UIGridLayout_2.CellPadding = UDim2.new(0, 5, 0, 4)
-UIGridLayout_2.CellSize = UDim2.new(0, 125, 0, 50)
-
-JailMonkey_606849621.Name = "JailMonkey_606849621"
-JailMonkey_606849621.Parent = GameSpecific
-JailMonkey_606849621.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-JailMonkey_606849621.BorderSizePixel = 0
-JailMonkey_606849621.Size = UDim2.new(0, 200, 0, 50)
-JailMonkey_606849621.Visible = false
-JailMonkey_606849621.Font = Enum.Font.SourceSans
-JailMonkey_606849621.Text = "JailMonkey"
-JailMonkey_606849621.TextColor3 = Color3.fromRGB(255, 255, 255)
-JailMonkey_606849621.TextSize = 20.000
-
-UICorner_9.Parent = JailMonkey_606849621
-
 Plate.Name = "Plate"
 Plate.Parent = Frame_2
 Plate.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
@@ -254,7 +209,7 @@ Plate.Position = UDim2.new(0.231182799, 0, 0.0313058347, 0)
 Plate.Size = UDim2.new(0, 280, 0, 168)
 Plate.ZIndex = 2
 
-UICorner_10.Parent = Plate
+UICorner_7.Parent = Plate
 
 Plate2.Name = "Plate2"
 Plate2.Parent = Frame_2
@@ -264,7 +219,7 @@ Plate2.Position = UDim2.new(0.0161290318, 0, 0.0313058347, 0)
 Plate2.Size = UDim2.new(0, 74, 0, 168)
 Plate2.ZIndex = 2
 
-UICorner_11.Parent = Plate2
+UICorner_8.Parent = Plate2
 
 LocalPlayer_2.Name = "LocalPlayer"
 LocalPlayer_2.Parent = Frame_2
@@ -275,13 +230,13 @@ LocalPlayer_2.Size = UDim2.new(0, 280, 0, 168)
 LocalPlayer_2.Visible = false
 LocalPlayer_2.ZIndex = 3
 
-UIGridLayout_3.Parent = LocalPlayer_2
-UIGridLayout_3.FillDirection = Enum.FillDirection.Vertical
-UIGridLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_3.VerticalAlignment = Enum.VerticalAlignment.Center
-UIGridLayout_3.CellPadding = UDim2.new(0, 5, 0, 4)
-UIGridLayout_3.CellSize = UDim2.new(0, 85, 0, 50)
+UIGridLayout_2.Parent = LocalPlayer_2
+UIGridLayout_2.FillDirection = Enum.FillDirection.Vertical
+UIGridLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_2.VerticalAlignment = Enum.VerticalAlignment.Center
+UIGridLayout_2.CellPadding = UDim2.new(0, 5, 0, 4)
+UIGridLayout_2.CellSize = UDim2.new(0, 85, 0, 50)
 
 Btools.Name = "Btools"
 Btools.Parent = LocalPlayer_2
@@ -293,9 +248,9 @@ Btools.Text = "Btools"
 Btools.TextColor3 = Color3.fromRGB(255, 255, 255)
 Btools.TextSize = 20.000
 
-UICorner_12.Parent = Btools
+UICorner_9.Parent = Btools
 
-UICorner_13.Parent = LocalPlayer_2
+UICorner_10.Parent = LocalPlayer_2
 
 Fly.Name = "Fly"
 Fly.Parent = LocalPlayer_2
@@ -307,21 +262,7 @@ Fly.Text = "Fly"
 Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
 Fly.TextSize = 20.000
 
-UICorner_14.Parent = Fly
-
-Gravity.Name = "Gravity"
-Gravity.Parent = LocalPlayer_2
-Gravity.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-Gravity.Size = UDim2.new(0, 200, 0, 50)
-Gravity.Font = Enum.Font.SourceSans
-Gravity.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
-Gravity.PlaceholderText = "Gravity"
-Gravity.Text = ""
-Gravity.TextColor3 = Color3.fromRGB(255, 255, 255)
-Gravity.TextSize = 20.000
-Gravity.TextWrapped = true
-
-UICorner_15.Parent = Gravity
+UICorner_11.Parent = Fly
 
 Jump.Name = "Jump"
 Jump.Parent = LocalPlayer_2
@@ -336,7 +277,7 @@ Jump.TextScaled = true
 Jump.TextSize = 19.000
 Jump.TextWrapped = true
 
-UICorner_16.Parent = Jump
+UICorner_12.Parent = Jump
 
 Noclip.Name = "Noclip"
 Noclip.Parent = LocalPlayer_2
@@ -348,7 +289,7 @@ Noclip.Text = "Noclip"
 Noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
 Noclip.TextSize = 20.000
 
-UICorner_17.Parent = Noclip
+UICorner_13.Parent = Noclip
 
 ClickTP.Name = "ClickTP"
 ClickTP.Parent = LocalPlayer_2
@@ -361,7 +302,7 @@ ClickTP.TextColor3 = Color3.fromRGB(255, 255, 255)
 ClickTP.TextSize = 20.000
 ClickTP.TextWrapped = true
 
-UICorner_18.Parent = ClickTP
+UICorner_14.Parent = ClickTP
 
 ClickDE.Name = "ClickDE"
 ClickDE.Parent = LocalPlayer_2
@@ -374,7 +315,7 @@ ClickDE.TextColor3 = Color3.fromRGB(255, 255, 255)
 ClickDE.TextSize = 20.000
 ClickDE.TextWrapped = true
 
-UICorner_19.Parent = ClickDE
+UICorner_15.Parent = ClickDE
 
 Speed.Name = "Speed"
 Speed.Parent = LocalPlayer_2
@@ -389,20 +330,33 @@ Speed.TextScaled = true
 Speed.TextSize = 19.000
 Speed.TextWrapped = true
 
-UICorner_20.Parent = Speed
+UICorner_16.Parent = Speed
 
 ESP.Name = "ESP"
 ESP.Parent = LocalPlayer_2
 ESP.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
 ESP.BorderSizePixel = 0
 ESP.Size = UDim2.new(0, 200, 0, 50)
-ESP.Visible = false
 ESP.Font = Enum.Font.SourceSans
-ESP.Text = "ESP"
+ESP.Text = "Wallhacks"
 ESP.TextColor3 = Color3.fromRGB(255, 255, 255)
 ESP.TextSize = 20.000
+ESP.TextWrapped = true
 
-UICorner_21.Parent = ESP
+UICorner_17.Parent = ESP
+
+Freecam.Name = "Freecam"
+Freecam.Parent = LocalPlayer_2
+Freecam.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+Freecam.BorderSizePixel = 0
+Freecam.Size = UDim2.new(0, 200, 0, 50)
+Freecam.Font = Enum.Font.SourceSans
+Freecam.Text = "Freecam"
+Freecam.TextColor3 = Color3.fromRGB(255, 255, 255)
+Freecam.TextSize = 20.000
+Freecam.TextWrapped = true
+
+UICorner_18.Parent = Freecam
 
 Players_2.Name = "Players"
 Players_2.Parent = Frame_2
@@ -413,7 +367,7 @@ Players_2.Size = UDim2.new(0, 280, 0, 168)
 Players_2.Visible = false
 Players_2.ZIndex = 3
 
-UICorner_22.Parent = Players_2
+UICorner_19.Parent = Players_2
 
 TextBox.Parent = Players_2
 TextBox.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
@@ -427,7 +381,7 @@ TextBox.Text = ""
 TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextBox.TextSize = 14.000
 
-UICorner_23.Parent = TextBox
+UICorner_20.Parent = TextBox
 
 Frame_3.Parent = Players_2
 Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -445,14 +399,14 @@ GoTo.Text = "Go to"
 GoTo.TextColor3 = Color3.fromRGB(255, 255, 255)
 GoTo.TextSize = 20.000
 
-UICorner_24.Parent = GoTo
+UICorner_21.Parent = GoTo
 
-UIGridLayout_4.Parent = Frame_3
-UIGridLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIGridLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_4.VerticalAlignment = Enum.VerticalAlignment.Center
-UIGridLayout_4.CellPadding = UDim2.new(0, 5, 0, 4)
-UIGridLayout_4.CellSize = UDim2.new(0, 85, 0, 50)
+UIGridLayout_3.Parent = Frame_3
+UIGridLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_3.VerticalAlignment = Enum.VerticalAlignment.Center
+UIGridLayout_3.CellPadding = UDim2.new(0, 5, 0, 4)
+UIGridLayout_3.CellSize = UDim2.new(0, 85, 0, 50)
 
 Spectate.Name = "Spectate"
 Spectate.Parent = Frame_3
@@ -465,7 +419,7 @@ Spectate.TextColor3 = Color3.fromRGB(255, 255, 255)
 Spectate.TextSize = 20.000
 Spectate.TextWrapped = true
 
-UICorner_25.Parent = Spectate
+UICorner_22.Parent = Spectate
 
 Follow.Name = "Follow"
 Follow.Parent = Frame_3
@@ -478,7 +432,20 @@ Follow.TextColor3 = Color3.fromRGB(255, 255, 255)
 Follow.TextSize = 20.000
 Follow.TextWrapped = true
 
-UICorner_26.Parent = Follow
+UICorner_23.Parent = Follow
+
+Annoy.Name = "Annoy"
+Annoy.Parent = Frame_3
+Annoy.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+Annoy.BorderSizePixel = 0
+Annoy.Size = UDim2.new(0, 200, 0, 50)
+Annoy.Font = Enum.Font.SourceSans
+Annoy.Text = "Annoy"
+Annoy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Annoy.TextSize = 20.000
+Annoy.TextWrapped = true
+
+UICorner_24.Parent = Annoy
 
 Settings_2.Name = "Settings"
 Settings_2.Parent = Frame_2
@@ -489,19 +456,56 @@ Settings_2.Size = UDim2.new(0, 280, 0, 168)
 Settings_2.Visible = false
 Settings_2.ZIndex = 3
 
-UICorner_27.Parent = Settings_2
+UICorner_25.Parent = Settings_2
 
-ScrollingFrame.Parent = Settings_2
-ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ScrollingFrame.BackgroundTransparency = 1.000
-ScrollingFrame.Size = UDim2.new(0, 280, 0, 168)
-ScrollingFrame.ZIndex = 2
-ScrollingFrame.ScrollBarThickness = 8
-ScrollingFrame.VerticalScrollBarInset = Enum.ScrollBarInset.ScrollBar
+HideKeyLabel.Name = "HideKeyLabel"
+HideKeyLabel.Parent = Settings_2
+HideKeyLabel.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+HideKeyLabel.LayoutOrder = 2
+HideKeyLabel.Size = UDim2.new(0, 200, 0, 50)
+HideKeyLabel.Font = Enum.Font.SourceSans
+HideKeyLabel.Text = "HideUI Keybind:"
+HideKeyLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+HideKeyLabel.TextSize = 20.000
+
+UICorner_26.Parent = HideKeyLabel
+
+FlyKeyLabel.Name = "FlyKeyLabel"
+FlyKeyLabel.Parent = Settings_2
+FlyKeyLabel.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+FlyKeyLabel.Size = UDim2.new(0, 200, 0, 50)
+FlyKeyLabel.Font = Enum.Font.SourceSans
+FlyKeyLabel.Text = "Fly Keybind:"
+FlyKeyLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+FlyKeyLabel.TextSize = 20.000
+
+UICorner_27.Parent = FlyKeyLabel
+
+TextButton.Parent = Settings_2
+TextButton.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+TextButton.LayoutOrder = 6
+TextButton.Size = UDim2.new(0, 270, 0, 25)
+TextButton.Visible = false
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 20.000
+
+UICorner_28.Parent = TextButton
+
+HideKeybind.Name = "HideKeybind"
+HideKeybind.Parent = Settings_2
+HideKeybind.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+HideKeybind.LayoutOrder = 3
+HideKeybind.Size = UDim2.new(0, 270, 0, 25)
+HideKeybind.Font = Enum.Font.SourceSans
+HideKeybind.Text = "h"
+HideKeybind.TextColor3 = Color3.fromRGB(255, 255, 255)
+HideKeybind.TextSize = 20.000
+
+UICorner_29.Parent = HideKeybind
 
 FlyKeybind.Name = "FlyKeybind"
-FlyKeybind.Parent = ScrollingFrame
+FlyKeybind.Parent = Settings_2
 FlyKeybind.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
 FlyKeybind.LayoutOrder = 1
 FlyKeybind.Size = UDim2.new(0, 270, 0, 25)
@@ -510,38 +514,15 @@ FlyKeybind.Text = "e"
 FlyKeybind.TextColor3 = Color3.fromRGB(255, 255, 255)
 FlyKeybind.TextSize = 20.000
 
-UICorner_28.Parent = FlyKeybind
+UICorner_30.Parent = FlyKeybind
 
-FancyTabs.Name = "FancyTabs"
-FancyTabs.Parent = ScrollingFrame
-FancyTabs.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-FancyTabs.LayoutOrder = 10
-FancyTabs.Size = UDim2.new(0, 270, 0, 25)
-FancyTabs.Visible = false
-FancyTabs.Font = Enum.Font.SourceSans
-FancyTabs.Text = "Off"
-FancyTabs.TextColor3 = Color3.fromRGB(255, 255, 255)
-FancyTabs.TextSize = 20.000
-
-UICorner_29.Parent = FancyTabs
-
-UIGridLayout_5.Parent = ScrollingFrame
-UIGridLayout_5.HorizontalAlignment = Enum.HorizontalAlignment.Center
-UIGridLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
-UIGridLayout_5.CellPadding = UDim2.new(0, -10, 0, 3)
-UIGridLayout_5.CellSize = UDim2.new(0, 130, 0, 25)
-UIGridLayout_5.FillDirectionMaxCells = 2
-
-FlyKeyLabel.Name = "FlyKeyLabel"
-FlyKeyLabel.Parent = ScrollingFrame
-FlyKeyLabel.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
-FlyKeyLabel.Size = UDim2.new(0, 200, 0, 50)
-FlyKeyLabel.Font = Enum.Font.SourceSans
-FlyKeyLabel.Text = "Fly Keybind:"
-FlyKeyLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-FlyKeyLabel.TextSize = 20.000
-
-UICorner_30.Parent = FlyKeyLabel
+UIGridLayout_4.Parent = Settings_2
+UIGridLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout_4.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_4.VerticalAlignment = Enum.VerticalAlignment.Center
+UIGridLayout_4.CellPadding = UDim2.new(0, -10, 0, 3)
+UIGridLayout_4.CellSize = UDim2.new(0, 137, 0, 25)
+UIGridLayout_4.FillDirectionMaxCells = 2
 
 Home_2.Name = "Home"
 Home_2.Parent = Frame_2
@@ -551,30 +532,107 @@ Home_2.Position = UDim2.new(0.231182799, 0, 0.0313058347, 0)
 Home_2.Size = UDim2.new(0, 280, 0, 168)
 Home_2.ZIndex = 4
 
+TextLabel.Parent = Home_2
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(0, 279, 0, 36)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Welcome, PLAYERNAME"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 21.000
+
 TextLabel_2.Parent = Home_2
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.Position = UDim2.new(0, 0, 0.150000006, 0)
 TextLabel_2.Size = UDim2.new(0, 279, 0, 36)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Welcome PLAYERNAME,"
+TextLabel_2.Text = "This script was made by SyticaIl."
 TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.TextSize = 21.000
 
 TextLabel_3.Parent = Home_2
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.Position = UDim2.new(0.021428572, 0, 0.196428567, 0)
-TextLabel_3.Size = UDim2.new(0, 268, 0, 99)
+TextLabel_3.Position = UDim2.new(0, 0, 0.449999988, 0)
+TextLabel_3.Size = UDim2.new(0, 279, 0, 36)
 TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "This script was made by SyticaIl, and is a work in progress so expect bugs and glitches."
+TextLabel_3.Text = "Enjoy!"
 TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.TextSize = 21.000
-TextLabel_3.TextWrapped = true
-TextLabel_3.TextYAlignment = Enum.TextYAlignment.Top
 
 UICorner_31.Parent = Home_2
 
 UICorner_32.Parent = Frame_2
+
+GameSpecific.Name = "GameSpecific"
+GameSpecific.Parent = Frame_2
+GameSpecific.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+GameSpecific.BorderSizePixel = 0
+GameSpecific.Position = UDim2.new(0.231182799, 0, 0.0313058347, 0)
+GameSpecific.Size = UDim2.new(0, 280, 0, 168)
+GameSpecific.Visible = false
+GameSpecific.ZIndex = 3
+
+UICorner_33.Parent = GameSpecific
+
+TextLabel_4.Parent = GameSpecific
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.LayoutOrder = 2
+TextLabel_4.Size = UDim2.new(0, 279, 0, 166)
+TextLabel_4.Font = Enum.Font.SourceSans
+TextLabel_4.Text = "Game Not Supported"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 35.000
+
+PrisonHax_155615604.Name = "PrisonHax_155615604"
+PrisonHax_155615604.Parent = GameSpecific
+PrisonHax_155615604.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+PrisonHax_155615604.BorderSizePixel = 0
+PrisonHax_155615604.Size = UDim2.new(0, 200, 0, 50)
+PrisonHax_155615604.Visible = false
+PrisonHax_155615604.Font = Enum.Font.SourceSans
+PrisonHax_155615604.Text = "PrisonHax"
+PrisonHax_155615604.TextColor3 = Color3.fromRGB(255, 255, 255)
+PrisonHax_155615604.TextSize = 20.000
+
+UICorner_34.Parent = PrisonHax_155615604
+
+UIGridLayout_5.Parent = GameSpecific
+UIGridLayout_5.FillDirection = Enum.FillDirection.Vertical
+UIGridLayout_5.HorizontalAlignment = Enum.HorizontalAlignment.Center
+UIGridLayout_5.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout_5.VerticalAlignment = Enum.VerticalAlignment.Center
+UIGridLayout_5.CellPadding = UDim2.new(0, 5, 0, 4)
+UIGridLayout_5.CellSize = UDim2.new(0, 125, 0, 50)
+
+JailMonkey_606849621.Name = "JailMonkey_606849621"
+JailMonkey_606849621.Parent = GameSpecific
+JailMonkey_606849621.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+JailMonkey_606849621.BorderSizePixel = 0
+JailMonkey_606849621.Size = UDim2.new(0, 200, 0, 50)
+JailMonkey_606849621.Visible = false
+JailMonkey_606849621.Font = Enum.Font.SourceSans
+JailMonkey_606849621.Text = "JailMonkey"
+JailMonkey_606849621.TextColor3 = Color3.fromRGB(255, 255, 255)
+JailMonkey_606849621.TextSize = 20.000
+
+UICorner_35.Parent = JailMonkey_606849621
+
+UniversalUI.Name = "UniversalUI"
+UniversalUI.Parent = GameSpecific
+UniversalUI.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+UniversalUI.BorderSizePixel = 0
+UniversalUI.LayoutOrder = -1
+UniversalUI.Size = UDim2.new(0, 200, 0, 50)
+UniversalUI.Visible = false
+UniversalUI.Font = Enum.Font.SourceSans
+UniversalUI.Text = "UniversalUI"
+UniversalUI.TextColor3 = Color3.fromRGB(255, 255, 255)
+UniversalUI.TextSize = 20.000
+
+UICorner_36.Parent = UniversalUI
 
 UiName.Name = "UiName"
 UiName.Parent = Frame
@@ -600,8 +658,8 @@ Close.Text = "❌"
 Close.TextColor3 = Color3.fromRGB(0, 0, 0)
 Close.TextSize = 14.000
 
-UICorner_33.CornerRadius = UDim.new(15, 15)
-UICorner_33.Parent = Close
+UICorner_37.CornerRadius = UDim.new(15, 15)
+UICorner_37.Parent = Close
 
 Status.Name = "Status"
 Status.Parent = Frame
@@ -611,7 +669,7 @@ Status.BorderSizePixel = 0
 Status.Position = UDim2.new(0, 0, -0.0666666701, 0)
 Status.Size = UDim2.new(0, 371, 0, 14)
 Status.Font = Enum.Font.SourceSans
-Status.Text = "Version 0.6"
+Status.Text = "Version 0.7"
 Status.TextColor3 = Color3.fromRGB(255, 255, 255)
 Status.TextSize = 14.000
 
@@ -626,8 +684,8 @@ Minimize.Text = "-"
 Minimize.TextColor3 = Color3.fromRGB(255, 255, 255)
 Minimize.TextSize = 29.000
 
-UICorner_34.CornerRadius = UDim.new(15, 15)
-UICorner_34.Parent = Minimize
+UICorner_38.CornerRadius = UDim.new(15, 15)
+UICorner_38.Parent = Minimize
 
 Fixed1.Name = "Fixed1"
 Fixed1.Parent = Frame
@@ -637,7 +695,7 @@ Fixed1.Position = UDim2.new(0, 0, 0.522751868, 0)
 Fixed1.Size = UDim2.new(0, 6, 0, 15)
 Fixed1.ZIndex = 0
 
-UICorner_35.Parent = Frame
+UICorner_39.Parent = Frame
 
 Fixed2.Name = "Fixed2"
 Fixed2.Parent = Frame
@@ -647,9 +705,23 @@ Fixed2.Position = UDim2.new(0.983870983, 0, 0.522751868, 0)
 Fixed2.Size = UDim2.new(0, 6, 0, 15)
 Fixed2.ZIndex = 0
 
+Respawn.Name = "Respawn"
+Respawn.Parent = Frame
+Respawn.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+Respawn.BorderSizePixel = 0
+Respawn.Position = UDim2.new(0.875, 0, 0, 0)
+Respawn.Size = UDim2.new(0, 15, 0, 15)
+Respawn.Font = Enum.Font.SourceSansSemibold
+Respawn.Text = "RE"
+Respawn.TextColor3 = Color3.fromRGB(255, 255, 255)
+Respawn.TextSize = 15.000
+
+UICorner_40.CornerRadius = UDim.new(15, 15)
+UICorner_40.Parent = Respawn
+
 -- Scripts:
 
-local function JESSR_fake_script() -- Library.LocalScript 
+local function QPPNIT_fake_script() -- Library.LocalScript 
 	local script = Instance.new('LocalScript', Library)
 
 	function one()
@@ -680,14 +752,1091 @@ local function JESSR_fake_script() -- Library.LocalScript
 		script.Parent.Parent.Settings.Visible = true
 	end)
 end
-coroutine.wrap(JESSR_fake_script)()
-local function RPQZBBW_fake_script() -- GameSpecific.GameID 
+coroutine.wrap(QPPNIT_fake_script)()
+local function VKTVYM_fake_script() -- Btools.LocalScript 
+	local script = Instance.new('LocalScript', Btools)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+		c.BinType = 4
+		local c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+		c.BinType = 3
+		local c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+		c.BinType = 2
+		local c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+		c.BinType = 1
+	end)
+end
+coroutine.wrap(VKTVYM_fake_script)()
+local function EHQX_fake_script() -- Fly.LocalScript 
+	local script = Instance.new('LocalScript', Fly)
+
+	function fly()
+		local mouse = game.Players.LocalPlayer:GetMouse()
+		repeat wait() until mouse
+		local plr = game.Players.LocalPlayer
+		local torso = plr.Character.HumanoidRootPart
+		local flying = true
+		local deb = true
+		local ctrl = {f = 0, b = 0, l = 0, r = 0}
+		local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+		local maxspeed = 250
+		local speed = 0
+		function Fly()
+			local bg = Instance.new("BodyGyro", torso)
+			bg.P = 9e4
+			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+			bg.cframe = torso.CFrame
+			local bv = Instance.new("BodyVelocity", torso)
+			bv.velocity = Vector3.new(0,0.1,0)
+			bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+			repeat wait()
+				plr.Character.Humanoid.PlatformStand = true
+				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+					speed = speed+.5+(speed/maxspeed)
+					if speed > maxspeed then
+						speed = maxspeed
+					end
+				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+					speed = speed-1
+					if speed < 0 then
+						speed = 0
+					end
+				end
+				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+				else
+					bv.velocity = Vector3.new(0,0.1,0)
+				end
+				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+			until not flying
+			ctrl = {f = 0, b = 0, l = 0, r = 0}
+			lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			speed = 0
+			bg:Destroy()
+			bv:Destroy()
+			plr.Character.Humanoid.PlatformStand = false
+		end
+		mouse.KeyDown:connect(function(key)
+			if key:lower() == script.Parent.Parent.Parent.Settings.FlyKeybind.Text:lower() then
+				if flying then flying = false
+				else
+					flying = true
+					Fly()
+				end
+			elseif key:lower() == "w" then
+				ctrl.f = 1
+			elseif key:lower() == "s" then
+				ctrl.b = -1
+			elseif key:lower() == "a" then
+				ctrl.l = -1
+			elseif key:lower() == "d" then
+				ctrl.r = 1
+			end
+		end)
+		mouse.KeyUp:connect(function(key)
+			if key:lower() == "w" then
+				ctrl.f = 0
+			elseif key:lower() == "s" then
+				ctrl.b = 0
+			elseif key:lower() == "a" then
+				ctrl.l = 0
+			elseif key:lower() == "d" then
+				ctrl.r = 0
+			end
+		end)
+		Fly()
+	end
+end
+coroutine.wrap(EHQX_fake_script)()
+local function PMPBJ_fake_script() -- Jump.LocalScript 
+	local script = Instance.new('LocalScript', Jump)
+
+	function Jump()
+		if script.Parent.Text ~= '' then
+			_G.Jump = true
+			if tonumber(script.Parent.Text) >= 1000 then
+				JumpNumber = 1000
+			else
+				JumpNumber = tonumber(script.Parent.Text)
+			end
+			script.Parent.Text = 'JumpPower: '.. JumpNumber
+			if LJ ~= true then
+				while _G.Jump == true do
+					game.Players.LocalPlayer.Character.Humanoid.JumpPower = JumpNumber
+					wait()
+					LJ = true
+				end
+			end
+		end
+	end
+	script.Parent.FocusLost:Connect(Jump)
+end
+coroutine.wrap(PMPBJ_fake_script)()
+local function PUSHLFT_fake_script() -- Noclip.LocalScript 
+	local script = Instance.new('LocalScript', Noclip)
+
+	noclipToggle = true
+	script.Parent.MouseButton1Up:Connect(function()
+		nam = game.Players.LocalPlayer.Name
+		coroutine.wrap(function()
+			while wait() do
+				for a, b in pairs(Workspace[nam]:GetChildren()) do
+					if b:FindFirstChild('Handle') then
+						b.Handle.CanCollide = false
+					end
+				end
+			end
+		end)()
+		game:GetService('Players').LocalPlayer.PlayerGui.ChildAdded:connect(function(asd)
+			delay(0, function()
+				if asd.Name ~= 'OutputGUI' then
+					asd:Destroy()
+				end
+			end)
+		end)
+		if noclipToggle == true then
+			noclipToggle = false
+			script.Parent.Text = 'Noclip: on'
+			if workspace[nam]:FindFirstChild("UpperTorso") and workspace[nam]:FindFirstChild("LowerTorso") and workspace[nam]:FindFirstChild("Head") then
+				game:GetService('RunService').Stepped:connect(function()
+					Workspace[nam].HumanoidRootPart.CanCollide = noclipToggle
+					Workspace[nam].UpperTorso.CanCollide = noclipToggle
+					Workspace[nam].LowerTorso.CanCollide = noclipToggle
+					Workspace[nam].Head.CanCollide = noclipToggle
+				end)
+				Workspace[nam].UpperTorso.Changed:connect(function()
+					Workspace[nam].HumanoidRootPart.CanCollide = noclipToggle
+					Workspace[nam].UpperTorso.CanCollide = noclipToggle
+					Workspace[nam].LowerTorso.CanCollide = noclipToggle
+					Workspace[nam].Head.CanCollide = noclipToggle
+				end)
+			else
+				game:GetService('RunService').Stepped:connect(function()
+					Workspace[nam].Torso.CanCollide = noclipToggle
+					Workspace[nam].Head.CanCollide = noclipToggle
+				end)
+				Workspace[nam].Torso.Changed:connect(function()
+					Workspace[nam].Torso.CanCollide = noclipToggle
+					Workspace[nam].Head.CanCollide = noclipToggle
+				end)
+			end
+		else
+			noclipToggle = true
+			script.Parent.Text = 'Noclip: off'
+			return
+		end
+	end)
+end
+coroutine.wrap(PUSHLFT_fake_script)()
+local function RTDX_fake_script() -- ClickTP.LocalScript 
+	local script = Instance.new('LocalScript', ClickTP)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		if fivempp ~= true then
+			script.Parent.Text = "Ctrl+Click Teleport: on"
+			local plr = game.Players.LocalPlayer
+			local mo = plr:GetMouse()
+			local UIS = game:GetService("UserInputService")
+			local fivempp = true
+			local HoldingControl = false
+	
+			mo.Button1Down:Connect(function()
+				if HoldingControl then
+					plr.Character:MoveTo(mo.Hit.p)
+				end
+			end)
+	
+			UIS.InputBegan:Connect(function(Input,Processed)
+				if Input.UserInputType == Enum.UserInputType.Keyboard then
+					if Input.KeyCode == Enum.KeyCode.LeftControl then
+						HoldingControl = true
+					elseif Input.KeyCode == Enum.KeyCode.RightControl then
+						HoldingControl = true	
+					end
+				end
+			end)
+	
+			UIS.InputEnded:Connect(function(Input,Processed)
+				if Input.UserInputType == Enum.UserInputType.Keyboard then
+					if Input.KeyCode == Enum.KeyCode.LeftControl then
+						HoldingControl = false
+					elseif Input.KeyCode == Enum.KeyCode.RightControl then
+						HoldingControl = false
+					end
+				end
+			end)
+		end
+	end)
+	
+	
+	
+end
+coroutine.wrap(RTDX_fake_script)()
+local function HMTIR_fake_script() -- ClickDE.LocalScript 
+	local script = Instance.new('LocalScript', ClickDE)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		if fivemppp ~= true then
+			script.Parent.Text = "Alt+Click Delete: on"
+			local plr = game.Players.LocalPlayer
+			local mo = plr:GetMouse()
+			local UIS = game:GetService("UserInputService")
+			local fivemppp = true
+			local HoldingAlt = false
+			
+			mo.Button1Down:Connect(function()
+				if HoldingAlt then
+					mo.Target:Destroy()
+				end
+			end)
+	
+			UIS.InputBegan:Connect(function(Input,Processed)
+				if Input.UserInputType == Enum.UserInputType.Keyboard then
+					if Input.KeyCode == Enum.KeyCode.LeftAlt then
+						HoldingAlt = true
+					elseif Input.KeyCode == Enum.KeyCode.RightAlt then
+						HoldingAlt = true
+					end
+				end
+			end)
+	
+			UIS.InputEnded:Connect(function(Input,Processed)
+				if Input.UserInputType == Enum.UserInputType.Keyboard then
+					if Input.KeyCode == Enum.KeyCode.LeftAlt then
+						HoldingAlt = false
+					elseif Input.KeyCode == Enum.KeyCode.RightAlt then
+						HoldingAlt = false
+					end
+				end
+			end)
+		end
+	end)
+end
+coroutine.wrap(HMTIR_fake_script)()
+local function YHNF_fake_script() -- Speed.LocalScript 
+	local script = Instance.new('LocalScript', Speed)
+
+	function Speed()
+		if script.Parent.Text ~= '' then
+			_G.Speed = true
+			if tonumber(script.Parent.Text) >= 1000 then
+				SpeedNumber = 1000
+			else
+				SpeedNumber = tonumber(script.Parent.Text)
+			end
+			script.Parent.Text = 'WalkSpeed: '.. SpeedNumber
+			if LS ~= true then
+				while _G.Speed == true do
+					game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = SpeedNumber
+					wait()
+					LS = true
+				end
+			end 
+		end
+	end
+	script.Parent.FocusLost:Connect(Speed)
+end
+coroutine.wrap(YHNF_fake_script)()
+local function KQVOH_fake_script() -- ESP.LocalScript 
+	local script = Instance.new('LocalScript', ESP)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		---Created By 0x83
+	
+		local lplr = game.Players.LocalPlayer
+		local camera = game:GetService("Workspace").CurrentCamera
+		local CurrentCamera = workspace.CurrentCamera
+		local worldToViewportPoint = CurrentCamera.worldToViewportPoint
+	
+		local HeadOff = Vector3.new(0, 0.5, 0)
+		local LegOff = Vector3.new(0,3,0)
+	
+		for i,v in pairs(game.Players:GetChildren()) do
+			local BoxOutline = Drawing.new("Square")
+			BoxOutline.Visible = false
+			BoxOutline.Color = Color3.new(0,0,0)
+			BoxOutline.Thickness = 3
+			BoxOutline.Transparency = 1
+			BoxOutline.Filled = false
+	
+			local Box = Drawing.new("Square")
+			Box.Visible = false
+			Box.Color = Color3.new(1,1,1)
+			Box.Thickness = 1
+			Box.Transparency = 1
+			Box.Filled = false
+	
+			function boxesp()
+				game:GetService("RunService").RenderStepped:Connect(function()
+					if v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v ~= lplr and v.Character.Humanoid.Health > 0 then
+						local Vector, onScreen = camera:worldToViewportPoint(v.Character.HumanoidRootPart.Position)
+	
+						local RootPart = v.Character.HumanoidRootPart
+						local Head = v.Character.Head
+						local RootPosition, RootVis = worldToViewportPoint(CurrentCamera, RootPart.Position)
+						local HeadPosition = worldToViewportPoint(CurrentCamera, Head.Position + HeadOff)
+						local LegPosition = worldToViewportPoint(CurrentCamera, RootPart.Position - LegOff)
+	
+						if onScreen then
+							BoxOutline.Size = Vector2.new(1000 / RootPosition.Z, HeadPosition.Y - LegPosition.Y)
+							BoxOutline.Position = Vector2.new(RootPosition.X - BoxOutline.Size.X / 2, RootPosition.Y - BoxOutline.Size.Y / 2)
+							BoxOutline.Visible = true
+	
+							Box.Size = Vector2.new(1000 / RootPosition.Z, HeadPosition.Y - LegPosition.Y)
+							Box.Position = Vector2.new(RootPosition.X - Box.Size.X / 2, RootPosition.Y - Box.Size.Y / 2)
+							Box.Visible = true
+	
+							if v.TeamColor == lplr.TeamColor then
+								BoxOutline.Visible = false
+								Box.Visible = false
+							else
+								BoxOutline.Visible = true
+								Box.Visible = true
+							end
+	
+						else
+							BoxOutline.Visible = false
+							Box.Visible = false
+						end
+					else
+						BoxOutline.Visible = false
+						Box.Visible = false
+					end
+				end)
+			end
+			coroutine.wrap(boxesp)()
+		end
+	
+		game.Players.PlayerAdded:Connect(function(v)
+			local BoxOutline = Drawing.new("Square")
+			BoxOutline.Visible = false
+			BoxOutline.Color = Color3.new(0,0,0)
+			BoxOutline.Thickness = 3
+			BoxOutline.Transparency = 1
+			BoxOutline.Filled = false
+	
+			local Box = Drawing.new("Square")
+			Box.Visible = false
+			Box.Color = Color3.new(1,1,1)
+			Box.Thickness = 1
+			Box.Transparency = 1
+			Box.Filled = false
+	
+			function boxesp()
+				game:GetService("RunService").RenderStepped:Connect(function()
+					if v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v ~= lplr and v.Character.Humanoid.Health > 0 then
+						local Vector, onScreen = camera:worldToViewportPoint(v.Character.HumanoidRootPart.Position)
+	
+						local RootPart = v.Character.HumanoidRootPart
+						local Head = v.Character.Head
+						local RootPosition, RootVis = worldToViewportPoint(CurrentCamera, RootPart.Position)
+						local HeadPosition = worldToViewportPoint(CurrentCamera, Head.Position + HeadOff)
+						local LegPosition = worldToViewportPoint(CurrentCamera, RootPart.Position - LegOff)
+	
+						if onScreen then
+							BoxOutline.Size = Vector2.new(1000 / RootPosition.Z, HeadPosition.Y - LegPosition.Y)
+							BoxOutline.Position = Vector2.new(RootPosition.X - BoxOutline.Size.X / 2, RootPosition.Y - BoxOutline.Size.Y / 2)
+							BoxOutline.Visible = true
+	
+							Box.Size = Vector2.new(1000 / RootPosition.Z, HeadPosition.Y - LegPosition.Y)
+							Box.Position = Vector2.new(RootPosition.X - Box.Size.X / 2, RootPosition.Y - Box.Size.Y / 2)
+							Box.Visible = true
+	
+							if v.TeamColor == lplr.TeamColor then
+								BoxOutline.Visible = false
+								Box.Visible = false
+							else
+								BoxOutline.Visible = true
+								Box.Visible = true
+							end
+	
+						else
+							BoxOutline.Visible = false
+							Box.Visible = false
+						end
+					else
+						BoxOutline.Visible = false
+						Box.Visible = false
+					end
+				end)
+			end
+			coroutine.wrap(boxesp)()
+		end)
+	
+		---Created By 0x83
+	end)
+end
+coroutine.wrap(KQVOH_fake_script)()
+local function VQVK_fake_script() -- Freecam.LocalScript 
+	local script = Instance.new('LocalScript', Freecam)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		script.Parent.Text = 'Freecam(Shift + P)'
+		function sandbox(var,func)
+			local env = getfenv(func)
+			local newenv = setmetatable({},{
+				__index = function(self,k)
+					if k=="script" then
+						return var
+					else
+						return env[k]
+					end
+				end,
+			})
+			setfenv(func,newenv)
+			return func
+		end
+		cors = {}
+		mas = Instance.new("Model",game:GetService("Lighting"))
+		LocalScript0 = Instance.new("LocalScript")
+		LocalScript0.Name = "FreeCamera"
+		LocalScript0.Parent = mas
+		table.insert(cors,sandbox(LocalScript0,function()
+			-----------------------------------------------------------------------
+			-- Freecam
+			-- Cinematic free camera for spectating and video production.
+			------------------------------------------------------------------------
+	
+			local pi    = math.pi
+			local abs   = math.abs
+			local clamp = math.clamp
+			local exp   = math.exp
+			local rad   = math.rad
+			local sign  = math.sign
+			local sqrt  = math.sqrt
+			local tan   = math.tan
+	
+			local ContextActionService = game:GetService("ContextActionService")
+			local Players = game:GetService("Players")
+			local RunService = game:GetService("RunService")
+			local StarterGui = game:GetService("StarterGui")
+			local UserInputService = game:GetService("UserInputService")
+	
+			local LocalPlayer = Players.LocalPlayer
+			if not LocalPlayer then
+				Players:GetPropertyChangedSignal("LocalPlayer"):Wait()
+				LocalPlayer = Players.LocalPlayer
+			end
+	
+			local Camera = workspace.CurrentCamera
+			workspace:GetPropertyChangedSignal("CurrentCamera"):Connect(function()
+				local newCamera = workspace.CurrentCamera
+				if newCamera then
+					Camera = newCamera
+				end
+			end)
+	
+			------------------------------------------------------------------------
+	
+			local TOGGLE_INPUT_PRIORITY = Enum.ContextActionPriority.Low.Value
+			local INPUT_PRIORITY = Enum.ContextActionPriority.High.Value
+			local FREECAM_MACRO_KB = {Enum.KeyCode.LeftShift, Enum.KeyCode.P}
+	
+			local NAV_GAIN = Vector3.new(1, 1, 1)*64
+			local PAN_GAIN = Vector2.new(0.75, 1)*8
+			local FOV_GAIN = 300
+	
+			local PITCH_LIMIT = rad(90)
+	
+			local VEL_STIFFNESS = 1.5
+			local PAN_STIFFNESS = 1.0
+			local FOV_STIFFNESS = 4.0
+	
+			------------------------------------------------------------------------
+	
+			local Spring = {} do
+				Spring.__index = Spring
+	
+				function Spring.new(freq, pos)
+					local self = setmetatable({}, Spring)
+					self.f = freq
+					self.p = pos
+					self.v = pos*0
+					return self
+				end
+	
+				function Spring:Update(dt, goal)
+					local f = self.f*2*pi
+					local p0 = self.p
+					local v0 = self.v
+	
+					local offset = goal - p0
+					local decay = exp(-f*dt)
+	
+					local p1 = goal + (v0*dt - offset*(f*dt + 1))*decay
+					local v1 = (f*dt*(offset*f - v0) + v0)*decay
+	
+					self.p = p1
+					self.v = v1
+	
+					return p1
+				end
+	
+				function Spring:Reset(pos)
+					self.p = pos
+					self.v = pos*0
+				end
+			end
+	
+			------------------------------------------------------------------------
+	
+			local cameraPos = Vector3.new()
+			local cameraRot = Vector2.new()
+			local cameraFov = 0
+	
+			local velSpring = Spring.new(VEL_STIFFNESS, Vector3.new())
+			local panSpring = Spring.new(PAN_STIFFNESS, Vector2.new())
+			local fovSpring = Spring.new(FOV_STIFFNESS, 0)
+	
+			------------------------------------------------------------------------
+	
+			local Input = {} do
+				local thumbstickCurve do
+					local K_CURVATURE = 2.0
+					local K_DEADZONE = 0.15
+	
+					local function fCurve(x)
+						return (exp(K_CURVATURE*x) - 1)/(exp(K_CURVATURE) - 1)
+					end
+	
+					local function fDeadzone(x)
+						return fCurve((x - K_DEADZONE)/(1 - K_DEADZONE))
+					end
+	
+					function thumbstickCurve(x)
+						return sign(x)*clamp(fDeadzone(abs(x)), 0, 1)
+					end
+				end
+	
+				local gamepad = {
+					ButtonX = 0,
+					ButtonY = 0,
+					DPadDown = 0,
+					DPadUp = 0,
+					ButtonL2 = 0,
+					ButtonR2 = 0,
+					Thumbstick1 = Vector2.new(),
+					Thumbstick2 = Vector2.new(),
+				}
+	
+				local keyboard = {
+					W = 0,
+					A = 0,
+					S = 0,
+					D = 0,
+					E = 0,
+					Q = 0,
+					U = 0,
+					H = 0,
+					J = 0,
+					K = 0,
+					I = 0,
+					Y = 0,
+					Up = 0,
+					Down = 0,
+					LeftShift = 0,
+					RightShift = 0,
+				}
+	
+				local mouse = {
+					Delta = Vector2.new(),
+					MouseWheel = 0,
+				}
+	
+				local NAV_GAMEPAD_SPEED  = Vector3.new(1, 1, 1)
+				local NAV_KEYBOARD_SPEED = Vector3.new(1, 1, 1)
+				local PAN_MOUSE_SPEED    = Vector2.new(1, 1)*(pi/64)
+				local PAN_GAMEPAD_SPEED  = Vector2.new(1, 1)*(pi/8)
+				local FOV_WHEEL_SPEED    = 1.0
+				local FOV_GAMEPAD_SPEED  = 0.25
+				local NAV_ADJ_SPEED      = 0.75
+				local NAV_SHIFT_MUL      = 0.25
+	
+				local navSpeed = 1
+	
+				function Input.Vel(dt)
+					navSpeed = clamp(navSpeed + dt*(keyboard.Up - keyboard.Down)*NAV_ADJ_SPEED, 0.01, 4)
+	
+					local kGamepad = Vector3.new(
+						thumbstickCurve(gamepad.Thumbstick1.x),
+						thumbstickCurve(gamepad.ButtonR2) - thumbstickCurve(gamepad.ButtonL2),
+						thumbstickCurve(-gamepad.Thumbstick1.y)
+					)*NAV_GAMEPAD_SPEED
+	
+					local kKeyboard = Vector3.new(
+						keyboard.D - keyboard.A + keyboard.K - keyboard.H,
+						keyboard.E - keyboard.Q + keyboard.I - keyboard.Y,
+						keyboard.S - keyboard.W + keyboard.J - keyboard.U
+					)*NAV_KEYBOARD_SPEED
+	
+					local shift = UserInputService:IsKeyDown(Enum.KeyCode.LeftShift) or UserInputService:IsKeyDown(Enum.KeyCode.RightShift)
+	
+					return (kGamepad + kKeyboard)*(navSpeed*(shift and NAV_SHIFT_MUL or 1))
+				end
+	
+				function Input.Pan(dt)
+					local kGamepad = Vector2.new(
+						thumbstickCurve(gamepad.Thumbstick2.y),
+						thumbstickCurve(-gamepad.Thumbstick2.x)
+					)*PAN_GAMEPAD_SPEED
+					local kMouse = mouse.Delta*PAN_MOUSE_SPEED
+					mouse.Delta = Vector2.new()
+					return kGamepad + kMouse
+				end
+	
+				function Input.Fov(dt)
+					local kGamepad = (gamepad.ButtonX - gamepad.ButtonY)*FOV_GAMEPAD_SPEED
+					local kMouse = mouse.MouseWheel*FOV_WHEEL_SPEED
+					mouse.MouseWheel = 0
+					return kGamepad + kMouse
+				end
+	
+				do
+					local function Keypress(action, state, input)
+						keyboard[input.KeyCode.Name] = state == Enum.UserInputState.Begin and 1 or 0
+						return Enum.ContextActionResult.Sink
+					end
+	
+					local function GpButton(action, state, input)
+						gamepad[input.KeyCode.Name] = state == Enum.UserInputState.Begin and 1 or 0
+						return Enum.ContextActionResult.Sink
+					end
+	
+					local function MousePan(action, state, input)
+						local delta = input.Delta
+						mouse.Delta = Vector2.new(-delta.y, -delta.x)
+						return Enum.ContextActionResult.Sink
+					end
+	
+					local function Thumb(action, state, input)
+						gamepad[input.KeyCode.Name] = input.Position
+						return Enum.ContextActionResult.Sink
+					end
+	
+					local function Trigger(action, state, input)
+						gamepad[input.KeyCode.Name] = input.Position.z
+						return Enum.ContextActionResult.Sink
+					end
+	
+					local function MouseWheel(action, state, input)
+						mouse[input.UserInputType.Name] = -input.Position.z
+						return Enum.ContextActionResult.Sink
+					end
+	
+					local function Zero(t)
+						for k, v in pairs(t) do
+							t[k] = v*0
+						end
+					end
+	
+					function Input.StartCapture()
+						ContextActionService:BindActionAtPriority("FreecamKeyboard", Keypress, false, INPUT_PRIORITY,
+							Enum.KeyCode.W, Enum.KeyCode.U,
+							Enum.KeyCode.A, Enum.KeyCode.H,
+							Enum.KeyCode.S, Enum.KeyCode.J,
+							Enum.KeyCode.D, Enum.KeyCode.K,
+							Enum.KeyCode.E, Enum.KeyCode.I,
+							Enum.KeyCode.Q, Enum.KeyCode.Y,
+							Enum.KeyCode.Up, Enum.KeyCode.Down
+						)
+						ContextActionService:BindActionAtPriority("FreecamMousePan",          MousePan,   false, INPUT_PRIORITY, Enum.UserInputType.MouseMovement)
+						ContextActionService:BindActionAtPriority("FreecamMouseWheel",        MouseWheel, false, INPUT_PRIORITY, Enum.UserInputType.MouseWheel)
+						ContextActionService:BindActionAtPriority("FreecamGamepadButton",     GpButton,   false, INPUT_PRIORITY, Enum.KeyCode.ButtonX, Enum.KeyCode.ButtonY)
+						ContextActionService:BindActionAtPriority("FreecamGamepadTrigger",    Trigger,    false, INPUT_PRIORITY, Enum.KeyCode.ButtonR2, Enum.KeyCode.ButtonL2)
+						ContextActionService:BindActionAtPriority("FreecamGamepadThumbstick", Thumb,      false, INPUT_PRIORITY, Enum.KeyCode.Thumbstick1, Enum.KeyCode.Thumbstick2)
+					end
+	
+					function Input.StopCapture()
+						navSpeed = 1
+						Zero(gamepad)
+						Zero(keyboard)
+						Zero(mouse)
+						ContextActionService:UnbindAction("FreecamKeyboard")
+						ContextActionService:UnbindAction("FreecamMousePan")
+						ContextActionService:UnbindAction("FreecamMouseWheel")
+						ContextActionService:UnbindAction("FreecamGamepadButton")
+						ContextActionService:UnbindAction("FreecamGamepadTrigger")
+						ContextActionService:UnbindAction("FreecamGamepadThumbstick")
+					end
+				end
+			end
+	
+			local function GetFocusDistance(cameraFrame)
+				local znear = 0.1
+				local viewport = Camera.ViewportSize
+				local projy = 2*tan(cameraFov/2)
+				local projx = viewport.x/viewport.y*projy
+				local fx = cameraFrame.rightVector
+				local fy = cameraFrame.upVector
+				local fz = cameraFrame.lookVector
+	
+				local minVect = Vector3.new()
+				local minDist = 512
+	
+				for x = 0, 1, 0.5 do
+					for y = 0, 1, 0.5 do
+						local cx = (x - 0.5)*projx
+						local cy = (y - 0.5)*projy
+						local offset = fx*cx - fy*cy + fz
+						local origin = cameraFrame.p + offset*znear
+						local part, hit = workspace:FindPartOnRay(Ray.new(origin, offset.unit*minDist))
+						local dist = (hit - origin).magnitude
+						if minDist > dist then
+							minDist = dist
+							minVect = offset.unit
+						end
+					end
+				end
+	
+				return fz:Dot(minVect)*minDist
+			end
+	
+			------------------------------------------------------------------------
+	
+			local function StepFreecam(dt)
+				local vel = velSpring:Update(dt, Input.Vel(dt))
+				local pan = panSpring:Update(dt, Input.Pan(dt))
+				local fov = fovSpring:Update(dt, Input.Fov(dt))
+	
+				local zoomFactor = sqrt(tan(rad(70/2))/tan(rad(cameraFov/2)))
+	
+				cameraFov = clamp(cameraFov + fov*FOV_GAIN*(dt/zoomFactor), 1, 120)
+				cameraRot = cameraRot + pan*PAN_GAIN*(dt/zoomFactor)
+				cameraRot = Vector2.new(clamp(cameraRot.x, -PITCH_LIMIT, PITCH_LIMIT), cameraRot.y%(2*pi))
+	
+				local cameraCFrame = CFrame.new(cameraPos)*CFrame.fromOrientation(cameraRot.x, cameraRot.y, 0)*CFrame.new(vel*NAV_GAIN*dt)
+				cameraPos = cameraCFrame.p
+	
+				Camera.CFrame = cameraCFrame
+				Camera.Focus = cameraCFrame*CFrame.new(0, 0, -GetFocusDistance(cameraCFrame))
+				Camera.FieldOfView = cameraFov
+			end
+	
+			------------------------------------------------------------------------
+	
+			local PlayerState = {} do
+				local mouseIconEnabled
+				local cameraSubject
+				local cameraType
+				local cameraFocus
+				local cameraCFrame
+				local cameraFieldOfView
+				local screenGuis = {}
+				local coreGuis = {
+					Backpack = true,
+					Chat = true,
+					Health = true,
+					PlayerList = true,
+				}
+				local setCores = {
+					BadgesNotificationsActive = true,
+					PointsNotificationsActive = true,
+				}
+	
+				-- Save state and set up for freecam
+				function PlayerState.Push()
+					for name in pairs(coreGuis) do
+						coreGuis[name] = StarterGui:GetCoreGuiEnabled(Enum.CoreGuiType[name])
+						StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType[name], false)
+					end
+					for name in pairs(setCores) do
+						setCores[name] = StarterGui:GetCore(name)
+						StarterGui:SetCore(name, false)
+					end
+					local playergui = LocalPlayer:FindFirstChildOfClass("PlayerGui")
+					if playergui then
+						for _, gui in pairs(playergui:GetChildren()) do
+							if gui:IsA("ScreenGui") and gui.Enabled then
+								screenGuis[#screenGuis + 1] = gui
+								gui.Enabled = false
+							end
+						end
+					end
+	
+					cameraFieldOfView = Camera.FieldOfView
+					Camera.FieldOfView = 70
+	
+					cameraType = Camera.CameraType
+					Camera.CameraType = Enum.CameraType.Custom
+	
+					cameraSubject = Camera.CameraSubject
+					Camera.CameraSubject = nil
+	
+					cameraCFrame = Camera.CFrame
+					cameraFocus = Camera.Focus
+	
+					mouseIconEnabled = UserInputService.MouseIconEnabled
+					UserInputService.MouseIconEnabled = false
+	
+					mouseBehavior = UserInputService.MouseBehavior
+					UserInputService.MouseBehavior = Enum.MouseBehavior.Default
+				end
+	
+				-- Restore state
+				function PlayerState.Pop()
+					for name, isEnabled in pairs(coreGuis) do
+						StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType[name], isEnabled)
+					end
+					for name, isEnabled in pairs(setCores) do
+						StarterGui:SetCore(name, isEnabled)
+					end
+					for _, gui in pairs(screenGuis) do
+						if gui.Parent then
+							gui.Enabled = true
+						end
+					end
+	
+					Camera.FieldOfView = cameraFieldOfView
+					cameraFieldOfView = nil
+	
+					Camera.CameraType = cameraType
+					cameraType = nil
+	
+					Camera.CameraSubject = cameraSubject
+					cameraSubject = nil
+	
+					Camera.CFrame = cameraCFrame
+					cameraCFrame = nil
+	
+					Camera.Focus = cameraFocus
+					cameraFocus = nil
+	
+					UserInputService.MouseIconEnabled = mouseIconEnabled
+					mouseIconEnabled = nil
+	
+					UserInputService.MouseBehavior = mouseBehavior
+					mouseBehavior = nil
+				end
+			end
+	
+			local function StartFreecam()
+				local cameraCFrame = Camera.CFrame
+				cameraRot = Vector2.new(cameraCFrame:toEulerAnglesYXZ())
+				cameraPos = cameraCFrame.p
+				cameraFov = Camera.FieldOfView
+	
+				velSpring:Reset(Vector3.new())
+				panSpring:Reset(Vector2.new())
+				fovSpring:Reset(0)
+	
+				PlayerState.Push()
+				RunService:BindToRenderStep("Freecam", Enum.RenderPriority.Camera.Value, StepFreecam)
+				Input.StartCapture()
+			end
+	
+			local function StopFreecam()
+				Input.StopCapture()
+				RunService:UnbindFromRenderStep("Freecam")
+				PlayerState.Pop()
+			end
+	
+			------------------------------------------------------------------------
+	
+			do
+				local enabled = false
+	
+				local function ToggleFreecam()
+					if enabled then
+						StopFreecam()
+					else
+						StartFreecam()
+					end
+					enabled = not enabled
+				end
+	
+				local function CheckMacro(macro)
+					for i = 1, #macro - 1 do
+						if not UserInputService:IsKeyDown(macro[i]) then
+							return
+						end
+					end
+					ToggleFreecam()
+				end
+	
+				local function HandleActivationInput(action, state, input)
+					if state == Enum.UserInputState.Begin then
+						if input.KeyCode == FREECAM_MACRO_KB[#FREECAM_MACRO_KB] then
+							CheckMacro(FREECAM_MACRO_KB)
+						end
+					end
+					return Enum.ContextActionResult.Pass
+				end
+	
+				ContextActionService:BindActionAtPriority("FreecamToggle", HandleActivationInput, false, TOGGLE_INPUT_PRIORITY, FREECAM_MACRO_KB[#FREECAM_MACRO_KB])
+			end
+		end))
+		for i,v in pairs(mas:GetChildren()) do
+			v.Parent = game:GetService("Players").LocalPlayer.PlayerGui
+			pcall(function() v:MakeJoints() end)
+		end
+		mas:Destroy()
+		for i,v in pairs(cors) do
+			spawn(function()
+				pcall(v)
+			end)
+		end
+	end)
+end
+coroutine.wrap(VQVK_fake_script)()
+local function MAFI_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	script.Parent.FocusLost:Connect(function()
+		if script.Parent.Text ~= '' then
+			for i, player in pairs(game.Players:GetPlayers()) do
+				if string.find(string.lower(player.Name), string.lower(script.Parent.Text)) then
+					script.Parent.Text = player.name
+					foundplayer = true
+				end
+			end
+			if foundplayer == true then
+				foundplayer = false
+			else
+				script.Parent.Text = ''
+			end
+		end
+	end)
+end
+coroutine.wrap(MAFI_fake_script)()
+local function YDCVTT_fake_script() -- GoTo.LocalScript 
+	local script = Instance.new('LocalScript', GoTo)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		local player1TP = workspace[script.Parent.Parent.Parent.TextBox.Text].HumanoidRootPart
+		local player2TP = game.Players.LocalPlayer.Character.HumanoidRootPart
+		player2TP.CFrame = player1TP.CFrame
+	end)
+end
+coroutine.wrap(YDCVTT_fake_script)()
+local function WOHQKDF_fake_script() -- Spectate.LocalScript 
+	local script = Instance.new('LocalScript', Spectate)
+
+	cam = game.Workspace.CurrentCamera
+	local spectating = false
+	plr = game.Players.LocalPlayer.name
+	script.Parent.MouseButton1Up:Connect(function()
+		if spectating == false then
+			spectating = true
+			cam.CameraSubject = workspace[script.Parent.Parent.Parent.TextBox.Text].Humanoid
+			script.Parent.Text = 'Stop Spectating'
+		else
+			spectating = false
+			cam.CameraSubject = workspace[plr].Humanoid
+			script.Parent.Text = 'Spectate'
+		end
+	end)
+	
+end
+coroutine.wrap(WOHQKDF_fake_script)()
+local function UPEYLXA_fake_script() -- Follow.LocalScript 
+	local script = Instance.new('LocalScript', Follow)
+
+	plr = game.Players.LocalPlayer.Character
+	local walkspeed
+	local distance
+	local following
+	script.Parent.MouseButton1Up:Connect(function()
+		if following == true then
+			script.Parent.Text = 'Follow'
+			following = false
+			plr.Humanoid.WalkSpeed = walkspeed
+		else
+			following = true
+			script.Parent.Text = 'Stop Following'
+			walkspeed = plr.Humanoid.WalkSpeed
+			plr.HumanoidRootPart.CFrame = workspace[script.Parent.Parent.Parent.TextBox.Text].HumanoidRootPart.CFrame
+			while following == true do
+				plr.Humanoid.WalkSpeed = workspace[script.Parent.Parent.Parent.TextBox.Text].Humanoid.WalkSpeed + 1
+				plr.Humanoid:MoveTo(workspace[script.Parent.Parent.Parent.TextBox.Text].HumanoidRootPart.Position)
+				wait(0.3)
+				distance = (plr.HumanoidRootPart.Position - workspace[script.Parent.Parent.Parent.TextBox.Text].HumanoidRootPart.Position).magnitude
+				if distance > 15 then
+					plr.HumanoidRootPart.CFrame = workspace[script.Parent.Parent.Parent.TextBox.Text].HumanoidRootPart.CFrame
+				elseif plr.Humanoid.Sit == true then
+					plr.Humanoid.Jump = true
+				end
+			end
+			
+		end
+	
+	end)
+	
+end
+coroutine.wrap(UPEYLXA_fake_script)()
+local function KXWDWC_fake_script() -- Annoy.LocalScript 
+	local script = Instance.new('LocalScript', Annoy)
+
+	plr = game.Players.LocalPlayer.Character
+	local walkspeed
+	local distance
+	local annoy
+	script.Parent.MouseButton1Up:Connect(function()
+		if annoy == true then
+			script.Parent.Text = 'Annoy'
+			annoy = false
+			plr.Humanoid.WalkSpeed = walkspeed
+		else
+			annoy = true
+			script.Parent.Text = 'Annoying'
+			walkspeed = plr.Humanoid.WalkSpeed
+			while annoy == true do
+				wait()
+				plr.HumanoidRootPart.CFrame = workspace[script.Parent.Parent.Parent.TextBox.Text].HumanoidRootPart.CFrame
+			end
+			
+		end
+	
+	end)
+	
+end
+coroutine.wrap(KXWDWC_fake_script)()
+local function FGWPYCN_fake_script() -- HideKeybind.LocalScript 
+	local script = Instance.new('LocalScript', HideKeybind)
+
+	local keybind = 'e'
+	script.Parent.FocusLost:Connect(function()
+		if script.Parent.Text:len() == 1 then
+			script.Parent.Text = script.Parent.Text:lower()
+			keybind = script.Parent.Text
+		else
+			script.Parent.Text = keybind
+		end
+	end)
+end
+coroutine.wrap(FGWPYCN_fake_script)()
+local function XCLSWR_fake_script() -- FlyKeybind.LocalScript 
+	local script = Instance.new('LocalScript', FlyKeybind)
+
+	local keybind = 'e'
+	script.Parent.FocusLost:Connect(function()
+		if script.Parent.Text:len() == 1 then
+			script.Parent.Text = script.Parent.Text:lower()
+			keybind = script.Parent.Text
+		else
+			script.Parent.Text = keybind
+		end
+	end)
+end
+coroutine.wrap(XCLSWR_fake_script)()
+local function YDLQ_fake_script() -- TextLabel.LocalScript 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	local PLAYERNAME1 = game.Players.LocalPlayer.DisplayName
+	script.Parent.Text = 'Welcome '.. PLAYERNAME1 ..','
+end
+coroutine.wrap(YDLQ_fake_script)()
+local function HYSYSB_fake_script() -- GameSpecific.GameID 
 	local script = Instance.new('LocalScript', GameSpecific)
 
 	local gameid = game.PlaceId
 	local ids = {
 		155615604,
 		606849621,
+		
 	}
 	for index, value in ipairs(ids) do
 		if gameid == value then
@@ -702,8 +1851,8 @@ local function RPQZBBW_fake_script() -- GameSpecific.GameID
 	end
 	
 end
-coroutine.wrap(RPQZBBW_fake_script)()
-local function PURLTXP_fake_script() -- PrisonHax_155615604.LocalScript 
+coroutine.wrap(HYSYSB_fake_script)()
+local function HMCXXGM_fake_script() -- PrisonHax_155615604.LocalScript 
 	local script = Instance.new('LocalScript', PrisonHax_155615604)
 
 	script.Parent.MouseButton1Up:Connect(function()
@@ -2201,437 +3350,24 @@ local function PURLTXP_fake_script() -- PrisonHax_155615604.LocalScript
 	
 	end)
 end
-coroutine.wrap(PURLTXP_fake_script)()
-local function QLSDONM_fake_script() -- JailMonkey_606849621.LocalScript 
+coroutine.wrap(HMCXXGM_fake_script)()
+local function CGGN_fake_script() -- JailMonkey_606849621.LocalScript 
 	local script = Instance.new('LocalScript', JailMonkey_606849621)
 
 	script.Parent.MouseButton1Up:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/JailMonkey.lua"))()
-	
 	end)
 end
-coroutine.wrap(QLSDONM_fake_script)()
-local function MSOZV_fake_script() -- Btools.LocalScript 
-	local script = Instance.new('LocalScript', Btools)
+coroutine.wrap(CGGN_fake_script)()
+local function HXXGMN_fake_script() -- UniversalUI.LocalScript 
+	local script = Instance.new('LocalScript', UniversalUI)
 
 	script.Parent.MouseButton1Up:Connect(function()
-		local c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
-		c.BinType = 4
-		local c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
-		c.BinType = 3
-		local c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
-		c.BinType = 2
-		local c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
-		c.BinType = 1
+		loadstring(syn.request({Url = "https://raw.githubusercontent.com/SyticalI/UniversalUI/main/main.lua", Method = "GET"}).Body)()
 	end)
 end
-coroutine.wrap(MSOZV_fake_script)()
-local function BPNRM_fake_script() -- Fly.LocalScript 
-	local script = Instance.new('LocalScript', Fly)
-
-	function fly()
-		local mouse = game.Players.LocalPlayer:GetMouse()
-		repeat wait() until mouse
-		local plr = game.Players.LocalPlayer
-		local torso = plr.Character.HumanoidRootPart
-		local flying = true
-		local deb = true
-		local ctrl = {f = 0, b = 0, l = 0, r = 0}
-		local lastctrl = {f = 0, b = 0, l = 0, r = 0}
-		local maxspeed = 100
-		local speed = 0
-		function Fly()
-			local bg = Instance.new("BodyGyro", torso)
-			bg.P = 9e4
-			bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
-			bg.cframe = torso.CFrame
-			local bv = Instance.new("BodyVelocity", torso)
-			bv.velocity = Vector3.new(0,0.1,0)
-			bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
-			repeat wait()
-				plr.Character.Humanoid.PlatformStand = true
-				if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
-					speed = speed+.5+(speed/maxspeed)
-					if speed > maxspeed then
-						speed = maxspeed
-					end
-				elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
-					speed = speed-1
-					if speed < 0 then
-						speed = 0
-					end
-				end
-				if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
-					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-					lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
-				elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
-					bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
-				else
-					bv.velocity = Vector3.new(0,0.1,0)
-				end
-				bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
-			until not flying
-			ctrl = {f = 0, b = 0, l = 0, r = 0}
-			lastctrl = {f = 0, b = 0, l = 0, r = 0}
-			speed = 0
-			bg:Destroy()
-			bv:Destroy()
-			plr.Character.Humanoid.PlatformStand = false
-		end
-		mouse.KeyDown:connect(function(key)
-			if key:lower() == script.Parent.Parent.Parent.Settings.ScrollingFrame.FlyKeybind.Text:lower() then
-				if flying then flying = false
-				else
-					flying = true
-					Fly()
-				end
-			elseif key:lower() == "w" then
-				ctrl.f = 1
-			elseif key:lower() == "s" then
-				ctrl.b = -1
-			elseif key:lower() == "a" then
-				ctrl.l = -1
-			elseif key:lower() == "d" then
-				ctrl.r = 1
-			end
-		end)
-		mouse.KeyUp:connect(function(key)
-			if key:lower() == "w" then
-				ctrl.f = 0
-			elseif key:lower() == "s" then
-				ctrl.b = 0
-			elseif key:lower() == "a" then
-				ctrl.l = 0
-			elseif key:lower() == "d" then
-				ctrl.r = 0
-			end
-		end)
-		Fly()
-	end
-	script.Parent.MouseButton1Up:Connect(fly)
-end
-coroutine.wrap(BPNRM_fake_script)()
-local function SCTHWS_fake_script() -- Gravity.LocalScript 
-	local script = Instance.new('LocalScript', Gravity)
-
-	function Gravity()
-		if script.Parent.Text ~= '' then
-			workspace.Gravity = script.Parent.Text
-		else
-			workspace.Gravity = 1
-		end
-	end
-	script.Parent.FocusLost:Connect(Gravity)
-end
-coroutine.wrap(SCTHWS_fake_script)()
-local function RLFO_fake_script() -- Jump.LocalScript 
-	local script = Instance.new('LocalScript', Jump)
-
-	function Jump()
-		if script.Parent.Text ~= '' then
-			_G.Jump = true
-			if tonumber(script.Parent.Text) >= 1000 then
-				JumpNumber = 1000
-			else
-				JumpNumber = tonumber(script.Parent.Text)
-			end
-			script.Parent.Text = 'JumpPower: '.. JumpNumber
-			if LJ ~= true then
-				while _G.Jump == true do
-					game.Players.LocalPlayer.Character.Humanoid.JumpPower = JumpNumber
-					wait()
-					LJ = true
-				end
-			end
-		end
-	end
-	script.Parent.FocusLost:Connect(Jump)
-end
-coroutine.wrap(RLFO_fake_script)()
-local function XQLJRZN_fake_script() -- Noclip.LocalScript 
-	local script = Instance.new('LocalScript', Noclip)
-
-	noclipToggle = true
-	script.Parent.MouseButton1Up:Connect(function()
-		nam = game.Players.LocalPlayer.Name
-		coroutine.wrap(function()
-			while wait() do
-				for a, b in pairs(Workspace[nam]:GetChildren()) do
-					if b:FindFirstChild('Handle') then
-						b.Handle.CanCollide = false
-					end
-				end
-			end
-		end)()
-		game:GetService('Players').LocalPlayer.PlayerGui.ChildAdded:connect(function(asd)
-			delay(0, function()
-				if asd.Name ~= 'OutputGUI' then
-					asd:Destroy()
-				end
-			end)
-		end)
-		if noclipToggle == true then
-			noclipToggle = false
-			script.Parent.Text = 'Noclip: on'
-			if workspace[nam]:FindFirstChild("UpperTorso") and workspace[nam]:FindFirstChild("LowerTorso") and workspace[nam]:FindFirstChild("Head") then
-				game:GetService('RunService').Stepped:connect(function()
-					Workspace[nam].HumanoidRootPart.CanCollide = noclipToggle
-					Workspace[nam].UpperTorso.CanCollide = noclipToggle
-					Workspace[nam].LowerTorso.CanCollide = noclipToggle
-					Workspace[nam].Head.CanCollide = noclipToggle
-				end)
-				Workspace[nam].UpperTorso.Changed:connect(function()
-					Workspace[nam].HumanoidRootPart.CanCollide = noclipToggle
-					Workspace[nam].UpperTorso.CanCollide = noclipToggle
-					Workspace[nam].LowerTorso.CanCollide = noclipToggle
-					Workspace[nam].Head.CanCollide = noclipToggle
-				end)
-			else
-				game:GetService('RunService').Stepped:connect(function()
-					Workspace[nam].Torso.CanCollide = noclipToggle
-					Workspace[nam].Head.CanCollide = noclipToggle
-				end)
-				Workspace[nam].Torso.Changed:connect(function()
-					Workspace[nam].Torso.CanCollide = noclipToggle
-					Workspace[nam].Head.CanCollide = noclipToggle
-				end)
-			end
-		else
-			noclipToggle = true
-			script.Parent.Text = 'Noclip: off'
-			return
-		end
-	end)
-end
-coroutine.wrap(XQLJRZN_fake_script)()
-local function GGTR_fake_script() -- ClickTP.LocalScript 
-	local script = Instance.new('LocalScript', ClickTP)
-
-	script.Parent.MouseButton1Up:Connect(function()
-		if fivempp ~= true then
-			script.Parent.Text = "Ctrl+Click Teleport: on"
-			local plr = game.Players.LocalPlayer
-			local mo = plr:GetMouse()
-			local UIS = game:GetService("UserInputService")
-			local fivempp = true
-			local HoldingControl = false
-	
-			mo.Button1Down:Connect(function()
-				if HoldingControl then
-					plr.Character:MoveTo(mo.Hit.p)
-				end
-			end)
-	
-			UIS.InputBegan:Connect(function(Input,Processed)
-				if Input.UserInputType == Enum.UserInputType.Keyboard then
-					if Input.KeyCode == Enum.KeyCode.LeftControl then
-						HoldingControl = true
-					elseif Input.KeyCode == Enum.KeyCode.RightControl then
-						HoldingControl = true	
-					end
-				end
-			end)
-	
-			UIS.InputEnded:Connect(function(Input,Processed)
-				if Input.UserInputType == Enum.UserInputType.Keyboard then
-					if Input.KeyCode == Enum.KeyCode.LeftControl then
-						HoldingControl = false
-					elseif Input.KeyCode == Enum.KeyCode.RightControl then
-						HoldingControl = false
-					end
-				end
-			end)
-		end
-	end)
-	
-	
-	
-end
-coroutine.wrap(GGTR_fake_script)()
-local function LJUMIH_fake_script() -- ClickDE.LocalScript 
-	local script = Instance.new('LocalScript', ClickDE)
-
-	script.Parent.MouseButton1Up:Connect(function()
-		if fivemppp ~= true then
-			script.Parent.Text = "Alt+Click Delete: on"
-			local plr = game.Players.LocalPlayer
-			local mo = plr:GetMouse()
-			local UIS = game:GetService("UserInputService")
-			local fivemppp = true
-			local HoldingAlt = false
-			
-			mo.Button1Down:Connect(function()
-				if HoldingAlt then
-					mo.Target:Destroy()
-				end
-			end)
-	
-			UIS.InputBegan:Connect(function(Input,Processed)
-				if Input.UserInputType == Enum.UserInputType.Keyboard then
-					if Input.KeyCode == Enum.KeyCode.LeftAlt then
-						HoldingAlt = true
-					elseif Input.KeyCode == Enum.KeyCode.RightAlt then
-						HoldingAlt = true
-					end
-				end
-			end)
-	
-			UIS.InputEnded:Connect(function(Input,Processed)
-				if Input.UserInputType == Enum.UserInputType.Keyboard then
-					if Input.KeyCode == Enum.KeyCode.LeftAlt then
-						HoldingAlt = false
-					elseif Input.KeyCode == Enum.KeyCode.RightAlt then
-						HoldingAlt = false
-					end
-				end
-			end)
-		end
-	end)
-end
-coroutine.wrap(LJUMIH_fake_script)()
-local function KAHF_fake_script() -- Speed.LocalScript 
-	local script = Instance.new('LocalScript', Speed)
-
-	function Speed()
-		if script.Parent.Text ~= '' then
-			_G.Speed = true
-			if tonumber(script.Parent.Text) >= 1000 then
-				SpeedNumber = 1000
-			else
-				SpeedNumber = tonumber(script.Parent.Text)
-			end
-			script.Parent.Text = 'WalkSpeed: '.. SpeedNumber
-			if LS ~= true then
-				while _G.Speed == true do
-					game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = SpeedNumber
-					wait()
-					LS = true
-				end
-			end 
-		end
-	end
-	script.Parent.FocusLost:Connect(Speed)
-end
-coroutine.wrap(KAHF_fake_script)()
-local function JDVMO_fake_script() -- ESP.LocalScript 
-	local script = Instance.new('LocalScript', ESP)
-
-	script.Parent.MouseButton1Up:Connect(function()
-		
-	end)
-end
-coroutine.wrap(JDVMO_fake_script)()
-local function VBMM_fake_script() -- TextBox.LocalScript 
-	local script = Instance.new('LocalScript', TextBox)
-
-	script.Parent.FocusLost:Connect(function()
-		if script.Parent.Text ~= '' then
-			for i, player in pairs(game.Players:GetPlayers()) do
-				if string.find(string.lower(player.Name), string.lower(script.Parent.Text)) then
-					script.Parent.Text = player.name
-					foundplayer = true
-				end
-			end
-			if foundplayer == true then
-				foundplayer = false
-			else
-				script.Parent.Text = ''
-			end
-		end
-	end)
-end
-coroutine.wrap(VBMM_fake_script)()
-local function AYUBEC_fake_script() -- GoTo.LocalScript 
-	local script = Instance.new('LocalScript', GoTo)
-
-	script.Parent.MouseButton1Up:Connect(function()
-		local player1TP = workspace[script.Parent.Parent.Parent.TextBox.Text].HumanoidRootPart
-		local player2TP = game.Players.LocalPlayer.Character.HumanoidRootPart
-		player2TP.CFrame = player1TP.CFrame
-	end)
-end
-coroutine.wrap(AYUBEC_fake_script)()
-local function PAIB_fake_script() -- Spectate.LocalScript 
-	local script = Instance.new('LocalScript', Spectate)
-
-	cam = game.Workspace.CurrentCamera
-	local spectating = false
-	plr = game.Players.LocalPlayer.name
-	script.Parent.MouseButton1Up:Connect(function()
-		if spectating == false then
-			spectating = true
-			cam.CameraSubject = workspace[script.Parent.Parent.Parent.TextBox.Text].Humanoid
-			script.Parent.Text = 'Stop Spectating'
-		else
-			spectating = false
-			cam.CameraSubject = workspace[plr].Humanoid
-			script.Parent.Text = 'Spectate'
-		end
-	end)
-	
-end
-coroutine.wrap(PAIB_fake_script)()
-local function ZEUP_fake_script() -- Follow.LocalScript 
-	local script = Instance.new('LocalScript', Follow)
-
-	plr = game.Players.LocalPlayer.Character
-	local walkspeed
-	local distance
-	local following
-	script.Parent.MouseButton1Up:Connect(function()
-		if following == true then
-			script.Parent.Text = 'Follow'
-			following = false
-			plr.Humanoid.WalkSpeed = walkspeed
-		else
-			following = true
-			script.Parent.Text = 'Stop Following'
-			walkspeed = plr.Humanoid.WalkSpeed
-			plr.HumanoidRootPart.CFrame = workspace[script.Parent.Parent.Parent.TextBox.Text].HumanoidRootPart.CFrame
-			while following == true do
-				plr.Humanoid.WalkSpeed = workspace[script.Parent.Parent.Parent.TextBox.Text].Humanoid.WalkSpeed + 1
-				plr.Humanoid:MoveTo(workspace[script.Parent.Parent.Parent.TextBox.Text].HumanoidRootPart.Position)
-				wait(0.3)
-				distance = (plr.HumanoidRootPart.Position - workspace[script.Parent.Parent.Parent.TextBox.Text].HumanoidRootPart.Position).magnitude
-				if distance > 15 then
-					plr.HumanoidRootPart.CFrame = workspace[script.Parent.Parent.Parent.TextBox.Text].HumanoidRootPart.CFrame
-				elseif plr.Humanoid.Sit == true then
-					plr.Humanoid.Jump = true
-				elseif plr.Humanoid.Health < 1 then
-					script.Parent.Text = 'Follow'
-					following = false
-					plr.Humanoid.WalkSpeed = walkspeed
-					break
-				end
-			end
-	
-		end
-	end)
-	
-end
-coroutine.wrap(ZEUP_fake_script)()
-local function COSZAEC_fake_script() -- FlyKeybind.LocalScript 
-	local script = Instance.new('LocalScript', FlyKeybind)
-
-	local keybind = 'e'
-	script.Parent.FocusLost:Connect(function()
-		if script.Parent.Text:len() == 1 then
-			script.Parent.Text = script.Parent.Text:lower()
-			keybind = script.Parent.Text
-		else
-			script.Parent.Text = keybind
-		end
-	end)
-end
-coroutine.wrap(COSZAEC_fake_script)()
-local function YCIPOQ_fake_script() -- TextLabel_2.LocalScript 
-	local script = Instance.new('LocalScript', TextLabel_2)
-
-	local PLAYERNAME1 = game.Players.LocalPlayer.DisplayName
-	script.Parent.Text = 'Welcome '.. PLAYERNAME1 ..','
-end
-coroutine.wrap(YCIPOQ_fake_script)()
-local function UOOFDKC_fake_script() -- Frame.DraggableScript 
+coroutine.wrap(HXXGMN_fake_script)()
+local function YIRFARD_fake_script() -- Frame.DraggableScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -2674,8 +3410,8 @@ local function UOOFDKC_fake_script() -- Frame.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(UOOFDKC_fake_script)()
-local function AZUERR_fake_script() -- Close.LocalScript 
+coroutine.wrap(YIRFARD_fake_script)()
+local function MQXRGM_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	function Close()
@@ -2735,8 +3471,8 @@ local function AZUERR_fake_script() -- Close.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AZUERR_fake_script)()
-local function FVDN_fake_script() -- Frame.Opening 
+coroutine.wrap(MQXRGM_fake_script)()
+local function PCCPMT_fake_script() -- Frame.Opening 
 	local script = Instance.new('LocalScript', Frame)
 
 	script.Parent.Position = UDim2.new(-.4, 0,0.357, 0)
@@ -2746,8 +3482,8 @@ local function FVDN_fake_script() -- Frame.Opening
 	)
 	
 end
-coroutine.wrap(FVDN_fake_script)()
-local function RXWCQC_fake_script() -- Minimize.LocalScript 
+coroutine.wrap(PCCPMT_fake_script)()
+local function KAOXXJM_fake_script() -- Minimize.LocalScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	function invisibleI()
@@ -2807,4 +3543,61 @@ local function RXWCQC_fake_script() -- Minimize.LocalScript
 	end)
 	
 end
-coroutine.wrap(RXWCQC_fake_script)()
+coroutine.wrap(KAOXXJM_fake_script)()
+local function ZMRM_fake_script() -- Respawn.LocalScript 
+	local script = Instance.new('LocalScript', Respawn)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		pos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+		Time = game.Players.RespawnTime + 0.1
+		wait(Time)
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+	end)
+	
+end
+coroutine.wrap(ZMRM_fake_script)()
+local function RREVG_fake_script() -- Universal.HideScript 
+	local script = Instance.new('LocalScript', Universal)
+
+	local keybind = script.Parent.Frame.Frame.Settings.HideKeybind.Text
+	local mouse = game.Players.LocalPlayer:GetMouse()
+	guiIn = true
+	mouse.KeyUp:connect(function(key)
+		posfull = script.Parent.Frame.Position
+		posedit = string.split(tostring(posfull), ",")
+		pos = string.split(posedit[3], "{")
+		print(pos[2])
+		if key:lower() == keybind and guiIn == true then
+			script.Parent.Frame:TweenPosition(UDim2.new(-1, 0,tonumber(pos[2]), 0),
+				"Out", "Elastic", 2, true
+			)
+			guiIn = false
+		elseif key:lower() == keybind and guiIn == false then
+			script.Parent.Frame:TweenPosition(UDim2.new(0.35, 0,tonumber(pos[2]), 0),
+				"Out", "Elastic", 1, true
+			)
+			guiIn = true
+		end
+	end)
+	
+	
+end
+coroutine.wrap(RREVG_fake_script)()
+local function OMUILP_fake_script() -- Universal.ToAdd 
+	local script = Instance.new('LocalScript', Universal)
+
+	--[[
+		To Do List:
+		
+	1. Lag Script
+	
+	2. Show Supported Games
+	
+	3. Add More Games
+	
+	
+	]]
+	
+end
+coroutine.wrap(OMUILP_fake_script)()
