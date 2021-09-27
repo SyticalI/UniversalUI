@@ -721,7 +721,7 @@ UICorner_40.Parent = Respawn
 
 -- Scripts:
 
-local function FTWREX_fake_script() -- Library.LocalScript 
+local function NJRYPZ_fake_script() -- Library.LocalScript 
 	local script = Instance.new('LocalScript', Library)
 
 	function one()
@@ -752,8 +752,8 @@ local function FTWREX_fake_script() -- Library.LocalScript
 		script.Parent.Parent.Settings.Visible = true
 	end)
 end
-coroutine.wrap(FTWREX_fake_script)()
-local function KSGUUXY_fake_script() -- Btools.LocalScript 
+coroutine.wrap(NJRYPZ_fake_script)()
+local function FADD_fake_script() -- Btools.LocalScript 
 	local script = Instance.new('LocalScript', Btools)
 
 	script.Parent.MouseButton1Up:Connect(function()
@@ -767,8 +767,8 @@ local function KSGUUXY_fake_script() -- Btools.LocalScript
 		c.BinType = 1
 	end)
 end
-coroutine.wrap(KSGUUXY_fake_script)()
-local function ARHL_fake_script() -- Fly.LocalScript 
+coroutine.wrap(FADD_fake_script)()
+local function ITAIZ_fake_script() -- Fly.LocalScript 
 	local script = Instance.new('LocalScript', Fly)
 
 	
@@ -853,8 +853,8 @@ local function ARHL_fake_script() -- Fly.LocalScript
 	end
 	script.Parent.MouseButton1Down:Connect(fly)
 end
-coroutine.wrap(ARHL_fake_script)()
-local function BFXXGGO_fake_script() -- Jump.LocalScript 
+coroutine.wrap(ITAIZ_fake_script)()
+local function VVFCHJ_fake_script() -- Jump.LocalScript 
 	local script = Instance.new('LocalScript', Jump)
 
 	function Jump()
@@ -877,8 +877,8 @@ local function BFXXGGO_fake_script() -- Jump.LocalScript
 	end
 	script.Parent.FocusLost:Connect(Jump)
 end
-coroutine.wrap(BFXXGGO_fake_script)()
-local function PJQGCNW_fake_script() -- Noclip.LocalScript 
+coroutine.wrap(VVFCHJ_fake_script)()
+local function ZQHCZ_fake_script() -- Noclip.LocalScript 
 	local script = Instance.new('LocalScript', Noclip)
 
 	noclipToggle = true
@@ -933,8 +933,8 @@ local function PJQGCNW_fake_script() -- Noclip.LocalScript
 		end
 	end)
 end
-coroutine.wrap(PJQGCNW_fake_script)()
-local function AGCY_fake_script() -- ClickTP.LocalScript 
+coroutine.wrap(ZQHCZ_fake_script)()
+local function XVBVJ_fake_script() -- ClickTP.LocalScript 
 	local script = Instance.new('LocalScript', ClickTP)
 
 	script.Parent.MouseButton1Up:Connect(function()
@@ -977,8 +977,8 @@ local function AGCY_fake_script() -- ClickTP.LocalScript
 	
 	
 end
-coroutine.wrap(AGCY_fake_script)()
-local function IXSNN_fake_script() -- ClickDE.LocalScript 
+coroutine.wrap(XVBVJ_fake_script)()
+local function PTOW_fake_script() -- ClickDE.LocalScript 
 	local script = Instance.new('LocalScript', ClickDE)
 
 	script.Parent.MouseButton1Up:Connect(function()
@@ -1018,8 +1018,8 @@ local function IXSNN_fake_script() -- ClickDE.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IXSNN_fake_script)()
-local function KMTV_fake_script() -- Speed.LocalScript 
+coroutine.wrap(PTOW_fake_script)()
+local function AGUP_fake_script() -- Speed.LocalScript 
 	local script = Instance.new('LocalScript', Speed)
 
 	function Speed()
@@ -1042,138 +1042,49 @@ local function KMTV_fake_script() -- Speed.LocalScript
 	end
 	script.Parent.FocusLost:Connect(Speed)
 end
-coroutine.wrap(KMTV_fake_script)()
-local function UAPOM_fake_script() -- ESP.LocalScript 
+coroutine.wrap(AGUP_fake_script)()
+local function ARHP_fake_script() -- ESP.LocalScript 
 	local script = Instance.new('LocalScript', ESP)
 
-	script.Parent.MouseButton1Up:Connect(function()
-		---Created By 0x83
 	
-		local lplr = game.Players.LocalPlayer
-		local camera = game:GetService("Workspace").CurrentCamera
-		local CurrentCamera = workspace.CurrentCamera
-		local worldToViewportPoint = CurrentCamera.worldToViewportPoint
+	--- Tut
 	
-		local HeadOff = Vector3.new(0, 0.5, 0)
-		local LegOff = Vector3.new(0,3,0)
+	local esp_settings = { ---- table for esp settings 
+		textsize = 8,
+		colour = 255,255,255
+	}
 	
-		for i,v in pairs(game.Players:GetChildren()) do
-			local BoxOutline = Drawing.new("Square")
-			BoxOutline.Visible = false
-			BoxOutline.Color = Color3.new(0,0,0)
-			BoxOutline.Thickness = 3
-			BoxOutline.Transparency = 1
-			BoxOutline.Filled = false
+	local gui = Instance.new("BillboardGui")
+	local esp = Instance.new("TextLabel",gui) ---- new instances to make the billboard gui and the textlabel
 	
-			local Box = Drawing.new("Square")
-			Box.Visible = false
-			Box.Color = Color3.new(1,1,1)
-			Box.Thickness = 1
-			Box.Transparency = 1
-			Box.Filled = false
 	
-			function boxesp()
-				game:GetService("RunService").RenderStepped:Connect(function()
-					if v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v ~= lplr and v.Character.Humanoid.Health > 0 then
-						local Vector, onScreen = camera:worldToViewportPoint(v.Character.HumanoidRootPart.Position)
 	
-						local RootPart = v.Character.HumanoidRootPart
-						local Head = v.Character.Head
-						local RootPosition, RootVis = worldToViewportPoint(CurrentCamera, RootPart.Position)
-						local HeadPosition = worldToViewportPoint(CurrentCamera, Head.Position + HeadOff)
-						local LegPosition = worldToViewportPoint(CurrentCamera, RootPart.Position - LegOff)
+	gui.Name = "Cracked esp"; ---- properties of the esp
+	gui.ResetOnSpawn = false
+	gui.AlwaysOnTop = true;
+	gui.LightInfluence = 0;
+	gui.Size = UDim2.new(1.75, 0, 1.75, 0);
+	esp.BackgroundColor3 = Color3.fromRGB(255, 255, 255);
+	esp.Text = ""
+	esp.Size = UDim2.new(0.0001, 0.00001, 0.0001, 0.00001);
+	esp.BorderSizePixel = 4;
+	esp.BorderColor3 = Color3.new(esp_settings.colour)
+	esp.BorderSizePixel = 0
+	esp.Font = "GothamSemibold"
+	esp.TextSize = esp_settings.textsize
+	esp.TextColor3 = Color3.fromRGB(esp_settings.colour) -- text colour
 	
-						if onScreen then
-							BoxOutline.Size = Vector2.new(1000 / RootPosition.Z, HeadPosition.Y - LegPosition.Y)
-							BoxOutline.Position = Vector2.new(RootPosition.X - BoxOutline.Size.X / 2, RootPosition.Y - BoxOutline.Size.Y / 2)
-							BoxOutline.Visible = true
-	
-							Box.Size = Vector2.new(1000 / RootPosition.Z, HeadPosition.Y - LegPosition.Y)
-							Box.Position = Vector2.new(RootPosition.X - Box.Size.X / 2, RootPosition.Y - Box.Size.Y / 2)
-							Box.Visible = true
-	
-							if v.TeamColor == lplr.TeamColor then
-								BoxOutline.Visible = false
-								Box.Visible = false
-							else
-								BoxOutline.Visible = true
-								Box.Visible = true
-							end
-	
-						else
-							BoxOutline.Visible = false
-							Box.Visible = false
-						end
-					else
-						BoxOutline.Visible = false
-						Box.Visible = false
-					end
-				end)
+	game:GetService("RunService").RenderStepped:Connect(function() ---- loops faster than a while loop :)
+		for i,v in pairs (game:GetService("Players"):GetPlayers()) do
+			if v ~= game:GetService("Players").LocalPlayer and v.Character.Head:FindFirstChild("Cracked esp")==nil  then -- craeting checks for team check, local player etc
+				esp.Text = "{"..v.Name.."}"
+				gui:Clone().Parent = v.Character.Head
 			end
-			coroutine.wrap(boxesp)()
 		end
-	
-		game.Players.PlayerAdded:Connect(function(v)
-			local BoxOutline = Drawing.new("Square")
-			BoxOutline.Visible = false
-			BoxOutline.Color = Color3.new(0,0,0)
-			BoxOutline.Thickness = 3
-			BoxOutline.Transparency = 1
-			BoxOutline.Filled = false
-	
-			local Box = Drawing.new("Square")
-			Box.Visible = false
-			Box.Color = Color3.new(1,1,1)
-			Box.Thickness = 1
-			Box.Transparency = 1
-			Box.Filled = false
-	
-			function boxesp()
-				game:GetService("RunService").RenderStepped:Connect(function()
-					if v.Character ~= nil and v.Character:FindFirstChild("Humanoid") ~= nil and v.Character:FindFirstChild("HumanoidRootPart") ~= nil and v ~= lplr and v.Character.Humanoid.Health > 0 then
-						local Vector, onScreen = camera:worldToViewportPoint(v.Character.HumanoidRootPart.Position)
-	
-						local RootPart = v.Character.HumanoidRootPart
-						local Head = v.Character.Head
-						local RootPosition, RootVis = worldToViewportPoint(CurrentCamera, RootPart.Position)
-						local HeadPosition = worldToViewportPoint(CurrentCamera, Head.Position + HeadOff)
-						local LegPosition = worldToViewportPoint(CurrentCamera, RootPart.Position - LegOff)
-	
-						if onScreen then
-							BoxOutline.Size = Vector2.new(1000 / RootPosition.Z, HeadPosition.Y - LegPosition.Y)
-							BoxOutline.Position = Vector2.new(RootPosition.X - BoxOutline.Size.X / 2, RootPosition.Y - BoxOutline.Size.Y / 2)
-							BoxOutline.Visible = true
-	
-							Box.Size = Vector2.new(1000 / RootPosition.Z, HeadPosition.Y - LegPosition.Y)
-							Box.Position = Vector2.new(RootPosition.X - Box.Size.X / 2, RootPosition.Y - Box.Size.Y / 2)
-							Box.Visible = true
-	
-							if v.TeamColor == lplr.TeamColor then
-								BoxOutline.Visible = false
-								Box.Visible = false
-							else
-								BoxOutline.Visible = true
-								Box.Visible = true
-							end
-	
-						else
-							BoxOutline.Visible = false
-							Box.Visible = false
-						end
-					else
-						BoxOutline.Visible = false
-						Box.Visible = false
-					end
-				end)
-			end
-			coroutine.wrap(boxesp)()
-		end)
-	
-		---Created By 0x83
 	end)
 end
-coroutine.wrap(UAPOM_fake_script)()
-local function OVNOD_fake_script() -- Freecam.LocalScript 
+coroutine.wrap(ARHP_fake_script)()
+local function LIZMV_fake_script() -- Freecam.LocalScript 
 	local script = Instance.new('LocalScript', Freecam)
 
 	script.Parent.MouseButton1Up:Connect(function()
@@ -1683,8 +1594,8 @@ local function OVNOD_fake_script() -- Freecam.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OVNOD_fake_script)()
-local function CTXAVZ_fake_script() -- TextBox.LocalScript 
+coroutine.wrap(LIZMV_fake_script)()
+local function MRRZXWM_fake_script() -- TextBox.LocalScript 
 	local script = Instance.new('LocalScript', TextBox)
 
 	script.Parent.FocusLost:Connect(function()
@@ -1703,8 +1614,8 @@ local function CTXAVZ_fake_script() -- TextBox.LocalScript
 		end
 	end)
 end
-coroutine.wrap(CTXAVZ_fake_script)()
-local function JTUGOA_fake_script() -- GoTo.LocalScript 
+coroutine.wrap(MRRZXWM_fake_script)()
+local function ROSB_fake_script() -- GoTo.LocalScript 
 	local script = Instance.new('LocalScript', GoTo)
 
 	script.Parent.MouseButton1Up:Connect(function()
@@ -1713,8 +1624,8 @@ local function JTUGOA_fake_script() -- GoTo.LocalScript
 		player2TP.CFrame = player1TP.CFrame
 	end)
 end
-coroutine.wrap(JTUGOA_fake_script)()
-local function JIYB_fake_script() -- Spectate.LocalScript 
+coroutine.wrap(ROSB_fake_script)()
+local function ZOCV_fake_script() -- Spectate.LocalScript 
 	local script = Instance.new('LocalScript', Spectate)
 
 	cam = game.Workspace.CurrentCamera
@@ -1733,8 +1644,8 @@ local function JIYB_fake_script() -- Spectate.LocalScript
 	end)
 	
 end
-coroutine.wrap(JIYB_fake_script)()
-local function FAJAG_fake_script() -- Follow.LocalScript 
+coroutine.wrap(ZOCV_fake_script)()
+local function UQDK_fake_script() -- Follow.LocalScript 
 	local script = Instance.new('LocalScript', Follow)
 
 	plr = game.Players.LocalPlayer.Character
@@ -1768,8 +1679,8 @@ local function FAJAG_fake_script() -- Follow.LocalScript
 	end)
 	
 end
-coroutine.wrap(FAJAG_fake_script)()
-local function SOGXKO_fake_script() -- Annoy.LocalScript 
+coroutine.wrap(UQDK_fake_script)()
+local function TAQCBRN_fake_script() -- Annoy.LocalScript 
 	local script = Instance.new('LocalScript', Annoy)
 
 	plr = game.Players.LocalPlayer.Character
@@ -1795,8 +1706,8 @@ local function SOGXKO_fake_script() -- Annoy.LocalScript
 	end)
 	
 end
-coroutine.wrap(SOGXKO_fake_script)()
-local function KTVOXJ_fake_script() -- HideKeybind.LocalScript 
+coroutine.wrap(TAQCBRN_fake_script)()
+local function QEJGHN_fake_script() -- HideKeybind.LocalScript 
 	local script = Instance.new('LocalScript', HideKeybind)
 
 	local keybind = 'e'
@@ -1809,8 +1720,8 @@ local function KTVOXJ_fake_script() -- HideKeybind.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KTVOXJ_fake_script)()
-local function VCWW_fake_script() -- FlyKeybind.LocalScript 
+coroutine.wrap(QEJGHN_fake_script)()
+local function AIGN_fake_script() -- FlyKeybind.LocalScript 
 	local script = Instance.new('LocalScript', FlyKeybind)
 
 	local keybind = 'e'
@@ -1823,15 +1734,15 @@ local function VCWW_fake_script() -- FlyKeybind.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VCWW_fake_script)()
-local function DBYVL_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(AIGN_fake_script)()
+local function JUQO_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	local PLAYERNAME1 = game.Players.LocalPlayer.DisplayName
 	script.Parent.Text = 'Welcome '.. PLAYERNAME1 ..','
 end
-coroutine.wrap(DBYVL_fake_script)()
-local function YTPT_fake_script() -- GameSpecific.GameID 
+coroutine.wrap(JUQO_fake_script)()
+local function NLXTZZ_fake_script() -- GameSpecific.GameID 
 	local script = Instance.new('LocalScript', GameSpecific)
 
 	local gameid = game.PlaceId
@@ -1853,8 +1764,8 @@ local function YTPT_fake_script() -- GameSpecific.GameID
 	end
 	
 end
-coroutine.wrap(YTPT_fake_script)()
-local function NMXQRL_fake_script() -- PrisonHax_155615604.LocalScript 
+coroutine.wrap(NLXTZZ_fake_script)()
+local function AMSW_fake_script() -- PrisonHax_155615604.LocalScript 
 	local script = Instance.new('LocalScript', PrisonHax_155615604)
 
 	script.Parent.MouseButton1Up:Connect(function()
@@ -3352,24 +3263,24 @@ local function NMXQRL_fake_script() -- PrisonHax_155615604.LocalScript
 	
 	end)
 end
-coroutine.wrap(NMXQRL_fake_script)()
-local function HBKTLRG_fake_script() -- JailMonkey_606849621.LocalScript 
+coroutine.wrap(AMSW_fake_script)()
+local function TLMHX_fake_script() -- JailMonkey_606849621.LocalScript 
 	local script = Instance.new('LocalScript', JailMonkey_606849621)
 
 	script.Parent.MouseButton1Up:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/JailMonkey.lua"))()
 	end)
 end
-coroutine.wrap(HBKTLRG_fake_script)()
-local function NWSCIPS_fake_script() -- UniversalUI.LocalScript 
+coroutine.wrap(TLMHX_fake_script)()
+local function HIKRWA_fake_script() -- UniversalUI.LocalScript 
 	local script = Instance.new('LocalScript', UniversalUI)
 
 	script.Parent.MouseButton1Up:Connect(function()
 		loadstring(syn.request({Url = "https://raw.githubusercontent.com/SyticalI/UniversalUI/main/main.lua", Method = "GET"}).Body)()
 	end)
 end
-coroutine.wrap(NWSCIPS_fake_script)()
-local function ULRHQQM_fake_script() -- Frame.DraggableScript 
+coroutine.wrap(HIKRWA_fake_script)()
+local function ETVL_fake_script() -- Frame.DraggableScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -3412,8 +3323,8 @@ local function ULRHQQM_fake_script() -- Frame.DraggableScript
 		end
 	end)
 end
-coroutine.wrap(ULRHQQM_fake_script)()
-local function KGLNL_fake_script() -- Close.LocalScript 
+coroutine.wrap(ETVL_fake_script)()
+local function VKGKR_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	function Close()
@@ -3473,8 +3384,8 @@ local function KGLNL_fake_script() -- Close.LocalScript
 		end
 	end)
 end
-coroutine.wrap(KGLNL_fake_script)()
-local function JBQSA_fake_script() -- Frame.Opening 
+coroutine.wrap(VKGKR_fake_script)()
+local function BAFHC_fake_script() -- Frame.Opening 
 	local script = Instance.new('LocalScript', Frame)
 
 	script.Parent.Position = UDim2.new(-.4, 0,0.357, 0)
@@ -3484,8 +3395,8 @@ local function JBQSA_fake_script() -- Frame.Opening
 	)
 	
 end
-coroutine.wrap(JBQSA_fake_script)()
-local function OVEHPFF_fake_script() -- Minimize.LocalScript 
+coroutine.wrap(BAFHC_fake_script)()
+local function QBDFU_fake_script() -- Minimize.LocalScript 
 	local script = Instance.new('LocalScript', Minimize)
 
 	function invisibleI()
@@ -3545,8 +3456,8 @@ local function OVEHPFF_fake_script() -- Minimize.LocalScript
 	end)
 	
 end
-coroutine.wrap(OVEHPFF_fake_script)()
-local function XXELSXW_fake_script() -- Respawn.LocalScript 
+coroutine.wrap(QBDFU_fake_script)()
+local function YLZYCWT_fake_script() -- Respawn.LocalScript 
 	local script = Instance.new('LocalScript', Respawn)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -3558,8 +3469,8 @@ local function XXELSXW_fake_script() -- Respawn.LocalScript
 	end)
 	
 end
-coroutine.wrap(XXELSXW_fake_script)()
-local function OXICQTF_fake_script() -- Universal.HideScript 
+coroutine.wrap(YLZYCWT_fake_script)()
+local function SJYID_fake_script() -- Universal.HideScript 
 	local script = Instance.new('LocalScript', Universal)
 
 	local keybind = script.Parent.Frame.Frame.Settings.HideKeybind.Text
@@ -3585,8 +3496,8 @@ local function OXICQTF_fake_script() -- Universal.HideScript
 	
 	
 end
-coroutine.wrap(OXICQTF_fake_script)()
-local function DZGRQXU_fake_script() -- Universal.ToAdd 
+coroutine.wrap(SJYID_fake_script)()
+local function MBFSD_fake_script() -- Universal.ToAdd 
 	local script = Instance.new('LocalScript', Universal)
 
 	--[[
@@ -3602,4 +3513,4 @@ local function DZGRQXU_fake_script() -- Universal.ToAdd
 	]]
 	
 end
-coroutine.wrap(DZGRQXU_fake_script)()
+coroutine.wrap(MBFSD_fake_script)()
